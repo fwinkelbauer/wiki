@@ -51,7 +51,7 @@ Browse:
 
 ### Sound
 
-Sometimes the HDMI connection does not transfer code. Changing the configuration
+Sometimes the HDMI connection does not transfer sound. Changing the configuration
 in `/boot/config.txt` should fix this:
 
 ```
