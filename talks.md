@@ -19,3 +19,12 @@ This document contains notes that I have taken while watching conference talks.
   become a problem if everyone does it.
 - Only a handful of people **really** know how a CPU works
 - Our tools change our thought process.
+
+## Don't Walk Away from Complexity, Run (Venkat Subramaniam)
+
+- Two kinds of code frustrate him:
+  - One that won't work
+  - One that works, but shouldn't
+- Shared mutability is the devil's work
+- Using a library is like dating, using a framework is like entering into a
+  marriage
