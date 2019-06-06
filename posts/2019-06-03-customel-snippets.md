@@ -35,6 +35,8 @@ The custom view show my scheduled tasks for the next three days, as well as all 
                  (org-agenda-sorting-strategy '(todo-state-up))
                  (org-agenda-todo-ignore-scheduled 'all)))
           ))))
+
+(set-face-attribute 'org-agenda-structure nil :inherit 'default :height 1.25)
 ```
 
 The custom headers make the agenda look like a regular org-mode file.
