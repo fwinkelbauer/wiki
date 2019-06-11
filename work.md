@@ -64,6 +64,7 @@ Assign tasks to the members of the team
 - Dan North
 - Martin Fowler
 - Martin Thompson
+- Todd Montgomery
 - Bryan Cantrill
 - Mark Seemann
 - Jimmy Bogard
