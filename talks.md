@@ -104,3 +104,25 @@ Databases have different default and maximum isolation levels. These levels are:
     database
   - "By the time the write is committed, the premise of the decision is no
     longer true"
+
+## [How did we end up here (Todd Montgomery & Martin Thompson)](https://www.youtube.com/watch?v=oxjT7veKi9c)
+
+- Focus on the fundamentals. Master them and understand them before you try
+  to change them
+- Shared mutable state is **a complete nightmare** and should only be used for
+  systems programming. The smartest people get this wrong all the time
+  - A cache is one the hardest problems in computer science. Do you **really**
+    want to implement it yourself?
+  - Embrace append-only, single writer, and shared nothing designs
+- Universal scalability law: You can't run away from math
+- Stop using text encoding. The web is in a constant "debug mode"
+- Synchronous communication is the crystal meth of distriuted programming.
+  Remote Procedure Calls do not work
+- Object orientation and set theories are great models. Please don't use ORMs to
+  make them work together. If you don't understand SQL, please do not use a
+  database
+- "The purpose of abstraction is not to be vague, but to create a new semantic
+  level in which one can absolutely precise" - Dijkstra
+- Think in terms of transformation and flow of data - not code!
+- Farley's second law: "As soon as you realise that most people don't know what
+  they are doing the world makes a lot more sense.."
