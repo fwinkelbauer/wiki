@@ -73,6 +73,7 @@ Assign tasks to the members of the team
 - Simon Brown
 - Sam Newman
 - J. B. Rainsberger
+- Chad Fowler
 
 # The Tao of Coaching (Max Landsberg)
 
