@@ -125,8 +125,7 @@ This is critical: You don't know how you come up with your decision.
   - One that won't work
   - One that works, but shouldn't
 - Shared mutability is the devil's work
-- Using a library is like dating, using a framework is like entering into a
-  marriage
+- Using a library is like dating, using a framework is like getting married
 
 ## [Green is Good Red is Bad - Turning your Checklists into Pester Tests (Rob Sewell)](https://www.youtube.com/watch?v=Qy-uvT57pt8)
 
