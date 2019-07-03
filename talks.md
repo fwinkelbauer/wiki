@@ -2,6 +2,107 @@
 
 This document contains notes that I have taken while watching conference talks.
 
+## [Pilot Decision Management (Clifford Agius)](https://www.youtube.com/watch?v=QNA9EExd8lQ)
+
+The TDODAR framework:
+
+### Time
+
+- Is it an emergency? Do we have to act quickly?
+- Do we need to and can we make more time?
+- Do we have time for a cup of coffee?
+- Start a stopwatch and make sure you come back to the "T" to check if things
+  change
+
+### Diagnosis
+
+What do we think happened?
+
+- Discuss the symptons
+- Ask open questions
+- Find some information to tell me this is not XYZ
+- Agree on the issue to be tackled
+- Make it quick and concise, the clock is ticking!
+
+### Options
+
+What should we do?
+
+- Brainstorm possible options
+- Tell people "Give me another option!" if the discussion dries up
+- Take input from all members of the team and outside sources
+- No such thing as a silly idea. Verbalise everything
+- Don't drag it out, be quick. Often the first ideas are the best anyway
+
+### Decide - What are we going to do?
+
+- As a team decide what is the correct or chosen path
+- Don't spend too much time deciding, pick an option and go with it
+- **State the decision**
+
+### Assign
+
+Assign tasks to the members of the team
+
+- Team leader assigns tasks
+- Make tasks short and within the skills of that team member
+- It is not a race!
+- Complete your task as well as you can but don't delay completion
+- If you can't complete ask for help
+- Consider overload
+
+### Review
+
+- Has the issue been resolved?
+- Do we still have time?
+- Quickly repeat TDODAR to see if actions have changed the answer
+- Is it still a good decision?
+
+## [Sharpening the Tools (Dan North)](https://www.infoq.com/presentations/Sharpening-the-Tools)
+
+Become a Software Craftsman:
+
+### Novice Programmer
+
+Need rules (**not patterns**) to guide their way: Don't ask. Follow this advice
+and you will be fine.
+
+### Advanced Beginner
+
+Do not follow the rules! Find out why the rules are the rules. We are starting
+to get context - we experience how stuff works.
+
+### Competent
+
+You become goal oriented. This is a time based thing. Most people become
+competent if they keep doing something.
+
+### Proficient
+
+This is a deliberate step. Things start to become intuition. Patterns start to
+become useful. "How can I make this better?"
+
+### Expert
+
+You are operating of instinct. You don't think about rules, you "just know".
+This is critical: You don't know how you come up with your decision.
+
+## [Learn to love meetings (Dr. Neil Roodyn)](https://www.youtube.com/watch?v=ppfLUFO-hwc)
+
+- Have a timeline and an agenda
+- "Check-in": Say your name, how you feel and your expectations at the beginning
+  of a meeting
+- Decisions are made via votes
+  - Yes
+  - I don't care
+  - No (you have to provide an alternative to discuss and vote)
+- A decision can be postponed through an "investigation". This is used to ask
+  clarifying questions
+- They were using a dashboard to display metrics to analyze how the meeting time
+  was spent (e.g. fiddling with the projector, actual discussions and so on)
+- Lean Coffee
+
+
 ## [Preventing the Collapse of Civilization (Jonathan Blow)](https://www.youtube.com/watch?v=pW-SOdj4Kkk)
 
 - Technology on its own will degrade. It needs constant effort to improve and
