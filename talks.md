@@ -31,7 +31,7 @@ What should we do?
 - Brainstorm possible options
 - Tell people "Give me another option!" if the discussion dries up
 - Take input from all members of the team and outside sources
-- No such thing as a silly idea. Verbalise everything
+- No such thing as a silly idea. Verbalize everything
 - Don't drag it out, be quick. Often the first ideas are the best anyway
 
 ### Decide - What are we going to do?
@@ -149,7 +149,7 @@ of distributed system, durability was redefined once more to mean replication.
 - This is not the same C as in the CAP theorem
 - A database moves from one consistent state to the another through
   transactions. A consistent state is defined through integrity checks or
-  invariantes (e.g. the balance of an account cannot be negative)
+  invariants (e.g. the balance of an account cannot be negative)
 - It is a property of how the application uses the database, it is not a
   property of the database itself
 
@@ -197,7 +197,7 @@ Databases have different default and maximum isolation levels. These levels are:
   contains inconsistent data
 - Write Skew:
   - Pattern: Read something, make decision, write decision to database
-  - Example: An ambulancy system requires, that each shift has at least one
+  - Example: An ambulance system requires, that each shift has at least one
     doctor on call. If several doctors request to go off call at the same time,
     we can end up in a situation in which no doctor is on call. This can happen
     because these concurrent transactions see the exact same snapshot of a
@@ -216,7 +216,7 @@ Databases have different default and maximum isolation levels. These levels are:
   - Embrace append-only, single writer, and shared nothing designs
 - Universal scalability law: You can't run away from math
 - Stop using text encoding. The web is in a constant "debug mode"
-- Synchronous communication is the crystal meth of distriuted programming.
+- Synchronous communication is the crystal meth of distributed programming.
   Remote Procedure Calls do not work
 - Object orientation and set theories are great models. Please don't use ORMs to
   make them work together. If you don't understand SQL, please do not use a
@@ -224,5 +224,46 @@ Databases have different default and maximum isolation levels. These levels are:
 - "The purpose of abstraction is not to be vague, but to create a new semantic
   level in which one can absolutely precise" - Dijkstra
 - Think in terms of transformation and flow of data - not code!
-- Farley's second law: "As soon as you realise that most people don't know what
+- Farley's second law: "As soon as you realize that most people don't know what
   they are doing the world makes a lot more sense.."
+
+## [It's about time (Christin Gorman)](https://www.youtube.com/watch?v=Nhhm5yC2HCo)
+
+The basic time library in your favorite programming language might be horrible.
+Why? Because they tend to mix two very different concepts:
+
+- The linear progression of time
+- An interpretation of time, based on politics, astronomy and history
+
+What time is it? 1532428776
+No, I mean what time is it? Well, that depends. Which epoch do you mean?
+
+| Environment | Start      |
+|-------------+------------|
+| .NET        | 1 Jan 0001 |
+| Windows     | 1 Jan 1601 |
+| Uni         | 1 Jan 1970 |
+| GPS         | 5 Jan 1980 |
+
+A timestamp on Windows means something completely different than a timestamp on
+Unix!
+
+Time synchronization (clock drift correction) is the reason why Windows does not
+guarantee, that the system time increases monotonically. So you shouldn't use
+it. Instead, use something different like the current tick count, or use your
+own sequence number.
+
+UTC (which stands for Coordinated Universal Time. Yes, UTC. Yep.) is an effort
+to create a system on which we can all agree.
+
+Coding advice:
+
+- Store timestamps as UTC together with a time zone
+- Do not store start/end timestamps. Instead, store a start timestamp together
+  with a duration. This makes it much easier to deal with events such as
+  day-light saving
+- Don't always mock our your database layer. The conversation of dates (which
+  can depend on the time zone of your database **and** on the time zone of your
+  operating system) will hunt you down
+- Make date ranges **inclusive** from and **exclusive** to (start <= value <
+  end)
