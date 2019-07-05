@@ -239,7 +239,7 @@ What time is it? 1532428776
 No, I mean what time is it? Well, that depends. Which epoch do you mean?
 
 | Environment | Start      |
-|-------------+------------|
+|-------------|------------|
 | .NET        | 1 Jan 0001 |
 | Windows     | 1 Jan 1601 |
 | Uni         | 1 Jan 1970 |
