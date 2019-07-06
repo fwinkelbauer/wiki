@@ -24,13 +24,15 @@ $ErrorActionPreference = 'Stop'
 
 $toolsDir = (Split-Path -parent $MyInvocation.MyCommand.Definition)
 $zipFile = Join-Path $toolsDir 'myapp.zip'
-$shimFile = Join-Path $env:ChocolateyInstall 'bin\myapp.bat'
+$batShimFile = Join-Path $env:ChocolateyInstall 'bin\myapp.bat'
+$ps1ShimFile = Join-Path $env:ChocolateyInstall 'bin\myapp.ps1'
 
 $appDir = "C:\SomeFolder\$($env:ChocolateyPackageName)\$($env:ChocolateyPackageVersion)"
 $appFile = Join-Path $appDir 'myapp.exe'
 
 Get-ChocolateyUnzip -FileFullPath $zipFile -Destination $appDir
-Set-Content -Path $shimFile -Value "@echo off`ncall `"$appFile`" %*" -Force
+Set-Content -Path $batShimFile -Value "@echo off`ncall `"$appFile`" %*" -Force
+Set-Content -Path $ps1ShimFile -Value "& '$appFile' `$args" -Force
 ```
 
 **chocolateyUninstall.ps1:**
@@ -38,10 +40,16 @@ Set-Content -Path $shimFile -Value "@echo off`ncall `"$appFile`" %*" -Force
 ``` powershell
 $ErrorActionPreference = 'Stop'
 
-$shimFile = Join-Path $env:ChocolateyInstall 'bin\myapp.bat'
+$batShimFile = Join-Path $env:ChocolateyInstall 'bin\myapp.bat'
 
-if (Test-Path $shimFile) {
-    Remove-Item $shimFile -Force
+if (Test-Path $batShimFile) {
+    Remove-Item $batShimFile -Force
+}
+
+$ps1ShimFile = Join-Path $env:ChocolateyInstall 'bin\myapp.ps1'
+
+if (Test-Path $ps1ShimFile) {
+    Remove-Item $ps1ShimFile -Force
 }
 
 $appDir = "C:\SomeFolder\$($env:ChocolateyPackageName)"
@@ -56,12 +64,10 @@ The technique works like this:
 - Calling `choco install myapp` installs the `myapp.zip` file to the Chocolatey
   lib directory (`$env:ChocolateyInstall\lib\myapp\tools`) and extracts the
   archive to `C:\SomeFolder\myapp\1.0.0\`
-- The install script creates a batch file
-  (`$env:ChocolateyInstall\bin\myapp.bat`), which points to
+- The install script creates a batch and a Powershell file, which point to
   `C:\SomeFolder\myapp\1.0.0\myapp.exe`
-- The application can now be called in PowerShell and cmd by typing `myapp` or
-  `myapp.bat`
+- The application can now be called in PowerShell and cmd by typing `myapp`
 - We can now update the application using `choco upgrade myapp`, even while it
   is running. The batch file will point to the new version (e.g.
   `C:\SomeFolder\myapp\2.0.0\myapp.exe`), which will work for any future calls
-  to `myapp` or `myapp.bat`
+  to `myapp`
