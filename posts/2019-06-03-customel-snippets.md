@@ -17,6 +17,7 @@ The elisp function calls the PowerShell function `Invoke-Formatter`, which is pa
 
 ## Org-Mode Agenda
 
+After seeing [this post](https://www.reddit.com/r/emacs/comments/9v7ut1/screenshot_showcase_2018/), I've decided to dive into creating my own agenda.
 I'm using a custom agenda view to keep track of things I have to do while I am at work.
 The custom view show my scheduled tasks for the next three days, as well as all unscheduled tasks, sorted by their TODO statement (e.g. "TODO", "WAIT" or "DONE"):
 
