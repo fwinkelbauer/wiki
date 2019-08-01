@@ -1,0 +1,502 @@
+#+STARTUP: content
+
+This is a list of biases which are mentioned in the book "How to Fail at Almost
+Everything and Still Win Big: Kind of the Story of My Life (Scott Adams)"
+
+* Cognitive Biases
+
+** Ambiguity effect
+
+People prefer an option for which the probability of a favorable outcome is
+known, over an option for which the probability of a favorable outcome is
+unknown.
+
+*Example:* We prefer investment situations in which the interest rate is more
+reliable.
+
+** Anchoring
+
+Refers to a situation in which an individual relies too heavily on an initial
+piece of information.
+
+*Example:* Displaying the prior price of a product next to the current price.
+
+** Availability heuristic
+
+We tend to give more weight to information that we can easily recall, or that we
+have heard recently.
+
+*Example:* Because of media coverage we believe that more people die of shark
+attacks than e.g. falling plane pieces.
+
+** Availability cascade
+
+Repeat something long enough and it might become true.
+
+** Backfire effect
+
+An effect in which our beliefs get stronger in an argument even if contradictory
+evidence is presented. This can happen in both directions.
+
+*Examples:*
+
+- A flame war on the internet
+- Flat earth believers
+
+** Barnum effect
+
+An effect in which vague statements are interpreted as an accurate description
+of something individual. Con-artists or fortune tellers use this effect to make
+people believe that they know more than they actually do.
+
+*Example:* "You do not take big risks."
+
+** Bandwagon effect
+
+The rate at which a belief, trend, or an idea is adopted increases with the
+amount of people that have already adopted it.
+
+*Example:* People tend to vote for the winning party.
+
+** Base rate neglect or Base rate fallacy
+
+If we are presented with a set of general information and specific information,
+we tend to focus only on the latter.
+
+*Example:*
+
+- A breathalyzer is wrong in 5% of the cases
+- It never fails to identify a truly drunken person
+- One in thousand drivers is driving drunk
+
+The chance that a person is truly drunk if the breathalyzer believes that he is
+drunk is about 2%, even though we would assume that it is 95%.
+
+** Belief bias
+
+We are more likely to accept arguments that support a conclusion which aligns
+with our own believes/values, while rejecting counter arguments to the
+conclusion.
+
+** Bias blind spot
+
+We can recognize the impact on the judgment on another person, while failing to
+see the impact on our own judgement. In other words: we believe that we can be
+neutral, even if we clearly can't.
+
+** Choice-supportive bias
+
+A bias in which we oversell advantages of a choice, while underselling the
+disadvantages. Alternative choices are reversed: we undersell advantages and
+oversell disadvantages.
+
+*Example:* Justyfing a purchase
+
+** Clustering illusion
+
+The tendency to identify clusters in small samples of a random distribution to
+be non-random.
+
+*Examples:* People believe that they can see patterns in stock market price
+fluctuations over time.
+
+** Confirmation bias
+
+The tendency to interpret information in a way that confirms our own believes.
+
+** Congruence bias
+
+A bias in which we use direct testing to prove a hypothesis, while neglecting
+disproving it through indirect testing.
+
+** Conjunction fallacy
+
+A fallacy in which we are more likely to favor a less likely choice (e.g. "Linda
+is a bank teller" vs "Linda is a bank teller and is active in a feminist
+movement) just because it sounds more plausible to what we know.
+
+** Conservatism or Regressive bias
+
+A bias in which we underestimate new data which would change the likelihood of
+an event.
+
+** Contrast effect
+
+*Example:* A specific shade of grey may appear lighter or darker than it
+actually is if we place it next to a darker or lighter shade of grey
+
+*Example:* A person will appear more or less attractive than that person does in
+isolation when immediately compared to, respectively, a less or more attractive
+person.
+
+** Curse of knowledge
+
+Occurs when an somebody explains a concept while thinking that the others have
+the background that is necessary to follow him.
+
+*Example:* A brilliant professor explains (in his opinion) a simple concept that
+none of his students can understand.
+
+** Decoy effect
+
+A situation in which you use a "decoy" to nudge someone to consider a different
+alternative.
+
+*Example:*
+
+|             | Product A | Product B | Product C |
+|-------------+-----------+-----------+-----------|
+| Price (€)   |       400 |       300 |       450 |
+| Memory (gb) |        30 |        20 |        15 |
+
+Product C is a "Decoy Product" which should increase sales for Product A
+
+** Denomination effect
+
+This effect suggests, that we are less likely to spend a certain amount of money
+using large currency denominations (e.g. 100-500 € bills) than a equivalent
+amount of money using smaller currency denominations (e.g. 10-50 € bills).
+
+** Distinction bias
+
+The tendency to view two options as more distinctive when evaluating them at the
+same time than when evaluating them at different times.
+
+*Example:* Pretend that you are comparing high quality TVs on a sales floor. The
+difference between these TVs might be small, but if they are placed next to each
+other, we tend to focus on these minor details. As a result, we pay more for
+product A, even if we would have been happy with product B. If we would have
+bought product B in the first place, we most likely would not have felt a
+difference, meaning that these small differences would not have been noticed.
+
+** Duration neglect
+
+People's judgement of an unpleasant experience depends very little on its actual
+duration. Instead people judge the experience based on its peak and how quickly
+the pain diminished.
+
+** Empathy gap ("hot-cold gap")
+
+A bias in which we underestimate how our current feelings change our views and
+goals. An angry person has a hard time to understand a calm person and vice
+versa.
+
+*Example:* We underestimate how our decision making changes when we are horny.
+
+** Endownment effect
+
+A hypothesis that states that we value things more merely because we own them.
+
+** Exaggerated expectation
+
+Exaggerated expectation is an extreme form of confirmation bias. Situations turn
+out less severe than we might have imagined in our head. There is a german
+saying: "Die Suppe wird nie so heiß gegessen, wie sie gekocht wird."
+
+** Experimenter's or Expectation bias
+
+If an experimenter influences participants of a study because of his own
+beliefs. This bias can be controlled through a double-blind design.
+
+** False-consensus effect
+
+A phenomen where an individual overestimates how his own opinions, beliefs or
+values are shared with other people. This creates a perception in which people
+overestimate consensus.
+
+** Functional fixedness
+
+A bias that limits our ability to use a tool in an unconvential way, as we have
+a fixed use case for this tool.
+
+*Example:* We might not realize the opportunity to use a hammer as a
+paperweight, because in our minds a hammer is used to pound nails.
+
+** Focalism (Anchoring)
+
+We rely too much on initial information.
+
+*Example:* When negotiating the price for a car, a price which is lower than the
+initial price may seem reasonable, even if it would be higher than the real
+market value.
+
+** Forer effect
+
+We have the tendency to believe that vague or general personality descriptions
+are an accurate and custom-tailored of ourselves.
+
+** Framing effect
+
+A statement can influence people in a different way depending on how we say it,
+even it the overall content stays the same. Some messages are more effective in
+formulated in a positive way ("gain frame"), while others benefit from a
+negative way ("loss frame").
+
+** Frequency illusion
+
+An ilussion where you start to see something that you have learned or noticed
+everywhere.
+
+*Example:* We notice a specific car after we have bought it for ourselve.
+
+** Gambler's fallacy
+
+We believe that an event is less likely to occur in the future if it is
+happening more frequently right now.
+
+"Randomness does not have a memory."
+
+** Hard-easy effect
+
+We overestimate our chance of success at a "hard" task, while underestimating
+our chance of success at an "easy" task.
+
+** Hindsight bias
+
+This bias is also known as the "knew-it-all-along effect".
+
+We are inclined to think that, after a certain event has occurred, that this
+event was predictable all along, even if there is no objective base which would
+enable a prediction.
+
+** Hostile media effect
+
+Individuals with a strong opinion on a subject have the tendency to view media
+coverage about that subject to be against them. This effect can even happen if
+two individuals have a complete different opinion - each will think that the
+media coverage is favoring the others opinion.
+
+** Hyperbolic discounting
+
+Given two similar rewards, we are more likely to favor the reward which we can
+receive sooner.
+
+*Example:* A dollar tomorrow is "better" than three dollars in a year.
+
+** Illusion of control
+
+The tendency to think that we are in control of something, while in reality our
+actions have no real effect.
+
+*Example:* We think that we can influence dice rolls (e.g. having a "luck
+streak")
+
+** Illusory correlation
+
+A bias in which we find a relation between two variables, even if they do not
+share a relationship. This is how stereotypes are created.
+
+** Impact bias
+
+We overestimate the length or the intensitivity of future emotional states.
+
+** Information bias
+
+We tend to seek information, even if it does not affect an action. We also
+believe, that we can make better decisions if we seek further information.
+
+** Irrational escalation
+
+*Example:* Bidding wars in which the final price is higher than the price of the
+object on which the bid was made.
+
+** Just-world hypothesis
+
+We believe that we live in a just world where there is an overall balance
+between "good" and "bad".
+
+*Examples:*
+
+- "You reap what you sow"
+- "You got what was coming for you"
+
+** Less-is-better effect
+
+Occurs when the lesser or smaller alternative proposition is preferred when
+evaluated separately, but not evaluated together.
+
+*Example:*
+
+A conference speaker who estimates about 50 people can make his talk more
+popular by booking a room for 50 or less people.
+
+** Loss aversion
+
+"It is better to not lose $5 than to find $5."
+
+** Ludic fallacy
+
+This fallacy describes the misuse of games to model real-life situations.
+
+*Example:* Suspicious Coin
+
+Two people are involved:
+
+- Dr. John who is regarded as a man of science and logical thinking
+- Fat Tony who is regarded as a man who lives by his wits
+
+A third party asks them to "assume that a coin is fair, i.e., has an equal
+probability of coming up heads or tails when flipped. I flip it ninety-nine
+times and get heads each time. What are the odds of my getting tails on my next
+throw?"
+
+- Dr. John says that the odds are not affected by the previous outcomes so the
+  odds must still be 50:50.
+- Fat Tony says that the odds of the coin coming up heads 99 times in a row are
+  so low that the initial assumption that the coin had a 50:50 chance of coming
+  up heads is most likely incorrect. "The coin gotta be loaded. It can't be a
+  fair game."
+
+The ludic fallacy here is to assume that in real life the rules from the purely
+hypothetical model (where Dr. John is correct) apply.
+
+** Mere exposure effect
+
+We tend to like something or someone more if we are exposed to him/her/it more
+often.
+
+*Example:* People who have a lot of contact are very likely to become friends
+
+** Money illusion
+
+We tend to forget about inflation, meaning that we do not see money for its
+"real" (current) value.
+
+** Moral credential effect
+
+*Example:* You buy energy-efficient products and feel good about yourself. You
+keep using these energy-efficient products so often, that your overall energy
+consumption is higher compared to your usage of non-energy-efficient products.
+E.g. you turn your heating system up for a longer period just because it is
+energy-efficient.
+
+** Negativity bias
+
+Negative thoughts/emotions have a greater effect than neutral or positive
+thoughts/emotions, even if their intensitivity is the same.
+
+** Neglect of probability
+
+We lack an intuitive understanding of probability. We have a tendency to
+disregard probability when dealing with an uncertain situation.
+
+** Normalcy bias
+
+Also known as "analysis paralysis".
+
+We underestimate the likelihood of a disaster and its possible effects, because
+we believe that things will function the way they have functioned before.
+
+*Example:* The residents of Pompeii kept watching the volcano eruption for
+several hours instead of preparing for an evacuation.
+
+** Observer-expectancy effect
+** Ommision bias
+** Optimism bias
+** Ostrich effect
+** Outcome bias
+** Overconfidence effect
+** Pareidolia
+** Pessimism bias
+** Planning fallacy
+** Postpurchase rationalization
+** Pro-Innovation bias
+** Pseudocertainty effect
+** Reactance
+** Reactive devaluation
+** Recency bias
+** Recency illusion
+** Restrainct bias
+** Rhyme as reason effect
+** Selective perception
+** Semmelweis reflex
+** Selection bias
+** Social comparison bias
+** Social desirability bias
+** Status quo bias
+** Stereotyping
+** Subadditivity effect
+** Subjective validation
+** Survivorship bias
+** Texas sharpshooter fallacy
+** Time-saving bias
+** Well-traveled road effect
+** Zero-risk bias
+** Zero-sum heuristic
+* Social Biases
+** Actor-observer bias
+** Defensive attribution hypothesis
+** Dunning-Kruger effect
+** Egocentric bias
+** Extrinsic incentives bias
+** Forer effect (aka Barnum effect)
+** False-consensus effect
+** Halo effect
+** Illusion of asymmetric insight
+** Illusion of external agency
+** Illusion of transparency
+** Illusion superiority
+** Ingroup bias
+** Just-world phenomenon
+** Moral luck
+** Naive cynicism
+** Outgroup homogeneity bias
+** Projection bias
+** Self-serving bias
+** System justification
+** Trait ascription bias
+** Ultimate attribution error
+** Worse-than-average effect
+* Many Errors and Biases
+** Bizarreness effect
+** Choice-supportive bias
+** Change bias
+** Childhood amnesia
+** Conservatism or Regressive bias
+** Consistency bias
+** Context effect
+** Cross-race effect
+** Cryptomnesia
+** Egocentric bias
+** Fading affect bias
+** False memory
+** Generation effect (Self-generation effect)
+** Google effect
+** Hindsight bias
+** Humor effect
+** Illusion-of-truth effect
+** Illusory correlation
+** Lag effect
+** Leveling and sharpening
+** Levels-of-processing effect
+** List-length effect
+** Misinformation effect
+** Misattribution
+** Modality effect
+** Mood congruent memory bias
+** Next-in-line effect
+** Osborn effect
+** Part-list cueing effect
+** Peak-end rule
+** Persistence
+** Picture superiority effect
+** Placement bias
+** Positivity effect
+** Primacy effect, Recency effect, and Serial position effects
+** Processing difficulty effect
+** Reminiscence bump
+** Rosy retrospection
+** Self-relevance effect
+** Self-serving bias
+** Source confusion
+** Spacing effect
+** Stereotypical bias
+** Suffix effect
+** Suggestibility
+** Subadditivity effect
+** Telescoping effect
+** Testing effect
+** Tip of the tongue phenomenon
+** Verbatim effect
+** Von Restorff effect
+** Zeigarnik effect
