@@ -22,8 +22,7 @@ Concepts such as buffer management, the "everything is text" philosophy or the
 tinkering aspects were rather new to me. It took me a few days to internalize
 the common vocabulary (e.g. `M-x foobar`, minibuffer, killing and yanking, well
 known package names...), which made re-reading several resources pretty
-important. The [/r/emacs](https://reddit.com/r/emacs) subreddit has helped me a
-lot.
+important. The [/r/emacs][reddit] subreddit has helped me a lot.
 
 I intentionally decided to start with the plain vanilla version of GNU Emacs so
 that I could start with the "original" way of how to use to editor. Pretty soon
@@ -39,11 +38,10 @@ myself a power user, because I am only using a few of org-mode's features, e.g.
 I still prefer a traditional calendar, even if org-agenda has some appealing
 features.
 
-You can find my literate Emacs configuration
-[here](https://github.com/fwinkelbauer/emacs). Even though one would consider
-committing files managed by a package manager a no-go, I have decided to add all
-`.el` and `*.elc` files, so that I can get the exact same code when checking out
-the repository on a new computer.
+You can find my literate Emacs configuration [here][github]. Even though one
+would consider committing files managed by a package manager a no-go, I have
+decided to add all `.el` and `*.elc` files, so that I can get the exact same
+code when checking out the repository on a new computer.
 
 ## Magit
 
@@ -84,3 +82,6 @@ Things that I might tinker on in the future include:
 - In-buffer navigation
 - Customizing the mode line
 - Creating a simple theme
+
+[reddit]: https://reddit.com/r/emacs
+[github]: https://github.com/fwinkelbauer/emacs
