@@ -267,3 +267,53 @@ Coding advice:
   operating system) will hunt you down
 - Make date ranges **inclusive** from and **exclusive** to (start <= value <
   end)
+
+## [PID Loops and the Art of Keeping Systems Stable (Colm MacCárthaigh)](https://www.youtube.com/watch?v=3AxSwCC7I4s)
+
+Control theory:
+
+Present -> Observe -> Feedback -> React -> (Present)
+
+A furnace is a classical example of applied control theory: you want to keep
+water at a specific temperature. So what do you do? You measure the error (e.g.
+the water has 20°C, it should be 100°C, so the error is 80°C) and react with
+correcting actions based on the error. To do this, we distinguish three types of
+controllers:
+
+### P Controller
+
+- Takes proportional steps to correct an error (e.g. the applied heat is
+  proportional to the measured error)
+- These systems tend to oscillate around the desired state
+
+### PI Controller
+
+- Adds an integral to observe an error over time
+- Such a system still oscillates, but the overall error curve is flattened
+- Thermostats or cruise controls use PI systems
+- These systems cannot deal with shocks
+
+### PID Controller
+
+- Adds a derivative component
+
+### Anti Patterns
+
+Using open loops is scary. The system cannot detect a problem. Chaos engineering
+and observability are fine practices to find open loops. Open loop systems tend
+to be imperative (do this, do that), while closed loop system tend to be
+declarative (please get the system into my defined desired state).
+
+Power laws are out to get you. A system failure can spread in an exponential
+way. These failures can be kept in their cages by building smaller systems
+(which decrease the overall "blasting radius"). Other techniques include:
+
+- Exponential back-off
+- Rate-limiters
+
+Sudden load spikes can bring down a system. In general: keep your queues short.
+LIFO queues might be a good idea, as they will prioritize new information.
+
+Implementing edge triggered systems imply, that you have solved the "deliver
+just once" problem. Level triggered (and idempotent) systems seem to be a
+simpler solution.
