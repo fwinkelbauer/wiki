@@ -50,7 +50,7 @@ find something to do. If possible, delegate it; if not, do it. Repeat."
 Create logs that hold the following information:
 
 - Problem you are deciding on
-- Invovled people
+- Involved people
 - What did you choose? Why? Risks?
 - What other things have you considered? Why didn't you choose them?
 
@@ -61,9 +61,9 @@ them.
 
 # Modularity
 
-"Start with a list of difficult design descisions or design decisions which are
-**likely to change**. Each module is then designed to **hide such a decision** from
-the others." - David Parnas
+"Start with a list of difficult design decisions or design decisions which are
+**likely to change**. Each module is then designed to **hide such a decision**
+from the others." - David Parnas
 
 The goal of modulariy is not to make things easier but to hide the things that
 are hard.
@@ -82,7 +82,7 @@ are hard.
   - Command line arguments
   - Environment variables
 - Throw a meaningful error on configuration problems
-- Try to initialise resources if they are not found (e.g. create directories,
+- Try to initialize resources if they are not found (e.g. create directories,
   create files, ...)
 - Create application arguments which allows a user to specify a configuration
   file in a specific place
@@ -93,15 +93,15 @@ are hard.
 
 Wikipedia:
 
-> 5 Whys is an interative interrogative technique used to explore the
+> 5 Whys is an interactive interrogative technique used to explore the
 > cause-and-effect relationships underlying a particular problem. The primary
 > goal of the technique is to determine the root cause of a defect or problem by
 > repeating the question "Why".
 
 # SBI Model
 
-- **Situation:** In the team meeting on friday
-- **Behaviour:** you spoke across me several times
+- **Situation:** In the team meeting on Friday
+- **Behavior:** you spoke across me several times
 - **Impact:** so I felt like I wasn't being allowed to share my opinion with the
   team
 
@@ -246,7 +246,7 @@ public class AcceptingAuthorizerFake implements Authorizer {
 }
 ```
 
-Fakes have business behaviours. Think of it as a simulator. Uncle Bob claims,
+Fakes have business behaviors. Think of it as a simulator. Uncle Bob claims,
 that he has not written any fake object in over 30 years. Be careful.
 
 ## Summary

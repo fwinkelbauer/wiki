@@ -3,7 +3,7 @@
 Based on this [article][grub]:
 
 - **Gist:** Whole foods, minimally processed, mostly plants, and plain water
-- Emphasise on vegetables, fruits, whole grains, beans, lentils, nuts, seeds,
+- Emphasize on vegetables, fruits, whole grains, beans, lentils, nuts, seeds,
   and plain water for thirst. That can be with or without seafood; with or
   without dairy; with or without eggs; with or without some meat; high or low in
   total fat

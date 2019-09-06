@@ -11,7 +11,7 @@
 **Close Mode**
 
 - The "default mode" when we are at work
-- We are impatient, purposful
+- We are impatient, purposeful
 
 We need the "open mode" to find a way and we need the "closed mode" to follow
 through with our plans. We are the most efficient when we switch between these

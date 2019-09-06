@@ -18,7 +18,7 @@ The TDODAR framework:
 
 What do we think happened?
 
-- Discuss the symptons
+- Discuss the symptoms
 - Ask open questions
 - Find some information to tell me this is not XYZ
 - Agree on the issue to be tackled

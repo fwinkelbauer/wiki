@@ -36,7 +36,7 @@ Use small steps to boost your confidence. **Reflect regularly**!
 
 - Remove impulses and distractions
 - Create an environment which helps you to achieve your goal
-- The intended way should be more conveniant than any other possibility
+- The intended way should be more convenient than any other possibility
 
 ### Make it stick
 
@@ -59,15 +59,15 @@ Use small steps to boost your confidence. **Reflect regularly**!
 
 ## Snippets
 
-- Our environment influences our behaviour more than we might think.
+- Our environment influences our behavior more than we might think.
   **Example:** You behave different when you are standing in traffic.
 - We are inaccurate in assessing ourselves
 - We are great planners, but reluctant doers
 - A trigger is only a problem if our reaction creates a problem
 - There are areas in our lifes in which we think that we can "just wing it"
 - We need help when we are least likely to get it. We behave against our own
-  interest and might not even realise it.
-- "We are professionals at what we do, amateurs at what what we want to become."
+  interest and might not even realize it.
+- "We are professionals at what we do, amateurs at what we want to become."
 
 ## The Wheel of Change
 
@@ -84,9 +84,9 @@ Use small steps to boost your confidence. **Reflect regularly**!
 - **Counter-Productive:** We don't need it
 
 These four categories form a rectangle which can describe several types of
-behaviour. **Example:** Temptation ("We want it, but don't need it").
+behavior. **Example:** Temptation ("We want it, but don't need it").
 
-**Exercise:** Pick a behaviour goal you are pursuing. Now list all the people
+**Exercise:** Pick a behavior goal you are pursuing. Now list all the people
 and situations that influence the quality of your performance. Identify and
 label the triggers related to your goal.
 
@@ -102,8 +102,8 @@ label the triggers related to your goal.
   Report your score regularly.
 - If your scores keep sinking, decide: Do I want to drop this question, or
   should I try harder?
-- These active questions can be used with an hourly reminder for short burt
-  applications (e.g. working with an "annyoing" colleague)
+- These active questions can be used with an hourly reminder for short burst
+  applications (e.g. working with an "annoying" colleague)
 
 # How to Fail at Almost Everything and Still Win Big (Scott Adams)
 
