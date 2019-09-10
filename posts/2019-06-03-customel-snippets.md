@@ -67,7 +67,7 @@ I haven't come around to like `org-capture`, so for now I've created this:
 ```
 
 Pressing `F12` opens up my "home" view, which consists of my projects-overview
-file, my custom agenda, as well as a datestamped file which I use to keep track
+file, my custom agenda, as well as a date stamped file which I use to keep track
 of unexpected issues, thoughts and ideas.
 
 [hackeryarn]: https://hackeryarn.com/post/cli-in-emacs/
