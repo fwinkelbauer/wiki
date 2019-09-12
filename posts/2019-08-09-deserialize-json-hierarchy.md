@@ -64,3 +64,6 @@ public static AbstractCommand Deserialize(string content)
     return (AbstractCommand)jObject.ToObject(childType);
 }
 ```
+
+Generic types such as `FooCommand<string>` are party poopers for which I haven't
+found a good solution yet.
