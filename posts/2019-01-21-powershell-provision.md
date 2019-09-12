@@ -85,21 +85,26 @@ function once {
         [Parameter(Mandatory = $true)]
         [string]$Name,
         [Parameter(Mandatory = $true)]
-        [scriptblock]$Cmd
+        [scriptblock]$ScriptBlock,
+        [System.IO.DirectoryInfo]$CheckpointDirectory = (Join-Path $env:ProgramData 'my.provision')
     )
 
-    $checkpointDir = Join-Path $env:ProgramData 'my.provision'
-    $checkpoint = Join-Path $checkpointDir "$Name.txt"
+    $checkpointFileName = $Name + '.checkpoint'
+
+    foreach ($invalidFileNameChar in [System.IO.Path]::GetInvalidFileNameChars()) {
+        $checkpointFileName = $checkpointFileName.Replace($invalidFileNameChar, '_')
+    }
+
+    $checkpointFile = Join-Path $CheckpointDirectory $checkpointFileName
 
     step $Name -If {
-        -not (Test-Path $checkpoint)
+        -not (Test-Path $checkpointFile)
     } -Do {
-        New-Item -Path $checkpoint -Force | Out-Null
+        & $ScriptBlock
 
-        & $Cmd
+        New-Item -Path $checkpointFile -Force | Out-Null
     }
 }
-
 ```
 
 Here's an example:
@@ -112,43 +117,57 @@ once 'Write important config file' {
 
 ## Exec
 
-Exec makes sure that I can monitor the exit code of command line tools such as
-Chocolatey. It also makes the restart process after a software installation a
-little bit more comfortable:
+Exec makes sure that I can monitor the exit code of a command line tool:
 
 ```powershell
-$ExecAskBeforeReboot = $true
-
 function exec {
     param(
         [Parameter(Mandatory = $true)]
-        [scriptblock]$Cmd,
-        [int[]]$ValidExitCodes = @(0, 1641, 3010)
+        [scriptblock]$ScriptBlock,
+        [int[]]$ValidExitCodes = @(0)
     )
 
-    $global:lastexitcode = 0
+    $global:LASTEXITCODE = 0
 
-    & $Cmd
+    & $ScriptBlock
 
-    if (-not ($global:lastexitcode -in $ValidExitCodes)) {
-        throw "Unexpected exit code '$($global:lastexitcode)'"
-    }
-
-    if ($global:lastexitcode -eq 3010) {
-        Write-Output "Restarting computer because of exit code '$($global:lastexitcode)'"
-        Restart-Computer -Confirm:$ExecAskBeforeReboot
+    if (-not ($global:LASTEXITCODE -in $ValidExitCodes)) {
+        throw "Invalid exit code: $($global:LASTEXITCODE)"
     }
 }
 ```
 
-With this function I can write lines such as these:
+Now I can call command line tools like this:
 
 ```powershell
-exec { cinst -y git }
-exec { cinst -y 7zip }
-exec -ValidExitCodes 0, 1, 2 { $global:lastexitcode = 2 }
+exec { 7z }
+exec { git status }
+exec -ValidExitCodes 0, 1, 2 { $global:LASTEXITCODE = 2 }
 ```
 
-If Chocolatey exits with the exit code `3010`, the `exec` block will initiate a
-restart process. Setting `$ExecAskBeforeReboot = $false` will get rid of any
-confirmation dialog.
+I can even create a wrapper function to deal with restarts if a Chocolatey
+package installation returns the exit code `3010`:
+
+``` powershell
+function choco-exec {
+    param(
+        [Parameter(Mandatory = $true)]
+        [scriptblock]$ScriptBlock,
+        [switch]$ConfirmBeforeReboot
+    )
+
+    exec -ScriptBlock $ScriptBlock -ValidExitCodes @(0, 1641, 3010)
+
+    if ($global:LASTEXITCODE -eq 3010) {
+        Write-Warning "Chocolatey indicates, that a restart is necessary"
+        Restart-Computer -Confirm:$ConfirmBeforeReboot
+    }
+}
+```
+
+Which I can call like this:
+
+``` powershell
+choco-exec { choco install git -y }
+choco-exec { choco install dotnet4.7.2 -y } -ConfirmBeforeReboot
+```
