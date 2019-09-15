@@ -35,4 +35,3 @@ often, take a walk, grab something to drink or just stare out the window while
 stretching.
 
 [aeron]: https://www.hermanmiller.com/products/seating/office-chairs/aeron-chairs/
-[workrave]: http://www.workrave.org/

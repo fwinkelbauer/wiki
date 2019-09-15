@@ -115,11 +115,10 @@ Our final package should now look like [this][gh_box].
 
 Creating and updating several VSIX packages could be further automated using the
 above helper function in combination with tools such as the Chocolatey [Auto
-Updater (AU)][gh_au]:
+Updater (AU)][gh_au].
 
 [market_cake]: https://marketplace.visualstudio.com/items?itemName%3Dvs-publisher-1392591.CakeforVisualStudio
 [choco_vsix]: https://chocolatey.org/packages?q=chocolatey-visualstudio.extension
-[choco_vs2017]: https://chocolatey.org/packages/visualstudio2017-installer
 [choco_checksum]: https://chocolatey.org/packages/checksum
 [gh_box]: https://github.com/fwinkelbauer/windows-box-setup/tree/0c8a2e4757f6c5f4178e3adada73a10dacab869c/nuspec/my.vs2017.cake
 [gh_au]: https://github.com/majkinetor/au
