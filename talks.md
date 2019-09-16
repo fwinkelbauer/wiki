@@ -295,7 +295,7 @@ controllers:
 
 ### PID Controller
 
-- Adds a derivative component
+- Adds a derivative component to predict future errors
 
 ### Anti Patterns
 
