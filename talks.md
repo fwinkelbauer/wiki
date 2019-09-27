@@ -242,7 +242,7 @@ No, I mean what time is it? Well, that depends. Which epoch do you mean?
 |-------------|------------|
 | .NET        | 1 Jan 0001 |
 | Windows     | 1 Jan 1601 |
-| Uni         | 1 Jan 1970 |
+| Unix        | 1 Jan 1970 |
 | GPS         | 5 Jan 1980 |
 
 A timestamp on Windows means something completely different than a timestamp on
