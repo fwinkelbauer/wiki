@@ -1,24 +1,3 @@
-# Speakers
-
-- Kevlin Henney
-- Rich Hickey
-- Scott Hanselman
-- Greg Young
-- Michael Feathers
-- Dan North
-- Martin Fowler
-- Martin Thompson
-- Todd Montgomery
-- Bryan Cantrill
-- Mark Seemann
-- Jimmy Bogard
-- Hadi Hariri
-- Jonathan Blow
-- Simon Brown
-- Sam Newman
-- J. B. Rainsberger
-- Chad Fowler
-
 # The Tao of Coaching (Max Landsberg)
 
 |               | **Low Skill** | **High Skill** |

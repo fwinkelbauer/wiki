@@ -1,0 +1,22 @@
+#+STARTUP: showall
+#+LINK: search https://www.youtube.com/results?search_query=%s
+
+* Interesting (Tech) Speakers
+
+- [[search:Kevlin%20Henney][Kevlin Henney]]
+- [[search:Rich%20Hickey][Rich Hickey]]
+- [[search:Greg%20Young][Greg Young]]
+- [[search:Michael%20Feathers][Michael Feathers]]
+- [[search:Dan%20North][Dan North]]
+- [[search:Martin%20Fowler][Martin Fowler]]
+- [[search:Martin%20Thompson][Martin Thompson]]
+- [[search:Todd%20Montgomery][Todd Montgomery]]
+- [[search:Bryan%20Cantrill][Bryan Cantrill]]
+- [[search:Mark%20Seemann][Mark Seemann]]
+- [[search:Jimmy%20Bogard][Jimmy Bogard]]
+- [[search:Hadi%20Hariri][Hadi Hariri]]
+- [[search:Jonathan%20Blow][Jonathan Blow]]
+- [[search:Simon%20Brown][Simon Brown]]
+- [[search:Sam%20Newman][Sam Newman]]
+- [[search:J.%20B.%20Rainsberger][J. B. Rainsberger]]
+- [[search:Chad%20Fowler][Chad Fowler]]
