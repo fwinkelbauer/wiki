@@ -68,15 +68,6 @@ are hard.
 - Some configuration (e.g. plugging an application into ElasticSearch) should be
   disabled by default. A user can enable them if he wants to
 
-# 5 Whys
-
-Wikipedia:
-
-> 5 Whys is an interactive interrogative technique used to explore the
-> cause-and-effect relationships underlying a particular problem. The primary
-> goal of the technique is to determine the root cause of a defect or problem by
-> repeating the question "Why".
-
 # SBI Model
 
 - **Situation:** In the team meeting on Friday
@@ -252,3 +243,8 @@ Uncle Bob:
 - **How-To Guide:** goal-oriented; how to solve a specific problem
 - **Explanation:** understanding-oriented; provides background and context
 - **Reference:** information-oriented; describes inner processes
+
+# Limiting Beliefs
+
+- Time = Money
+- Technical excellence is only everything
