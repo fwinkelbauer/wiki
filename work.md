@@ -245,3 +245,10 @@ Uncle Bob:
 - **Complicated:** (Skill) You kinda know what's going on so you can engineer a solution
   - Make the system right
 - **Obvious:** (Automation) You can automate these steps
+
+# [Four Kinds of Documentation](https://www.divio.com/blog/documentation)
+
+- **Tutorial:** learning-oriented; a getting started guide
+- **How-To Guide:** goal-oriented; how to solve a specific problem
+- **Explanation:** understanding-oriented; provides background and context
+- **Reference:** information-oriented; describes inner processes
