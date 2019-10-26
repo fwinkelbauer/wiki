@@ -126,3 +126,10 @@ label the triggers related to your goal.
 - Read it twice (corrections)
 - Read it twice (meaning - wait before you read it again)
 - Less is more
+
+# [Learn Anything](https://www.youtube.com/watch?v=5MgBikgcWnY)
+
+- Deconstruct the skill
+- Learn enough to self correct
+- Remove practice barriers
+- Practice at least 20 hours
