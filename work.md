@@ -247,4 +247,4 @@ Uncle Bob:
 # Limiting Beliefs
 
 - Time = Money
-- Technical excellence is only everything
+- Technical excellence is everything
