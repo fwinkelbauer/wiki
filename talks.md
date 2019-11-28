@@ -317,3 +317,28 @@ LIFO queues might be a good idea, as they will prioritize new information.
 Implementing edge triggered systems imply, that you have solved the "deliver
 just once" problem. Level triggered (and idempotent) systems seem to be a
 simpler solution.
+
+## [Big Numbers and the 1Hz CPU with Tom Hudson](https://www.youtube.com/watch?v=pDBOC6I3K8g)
+
+We do not have a good intuition for how fast different parts of a computer are.
+
+Let's have a look at a 3ghz CPU and different access times:
+
+- Register: 0.3ns
+- L1 cache: 1.5ns
+- L2 cache: 3ns
+- L3 cache 13ns
+- RAM: 0.1 microseconds
+- HDD: 6ms
+- SSD: 80 microseconds
+
+All these values seem "low enough", but let's but them into perspective using a
+1 Hertz CPU:
+
+- Register: 1 second
+- L1 cache: 4.5 seconds
+- L2 cache: 9 seconds
+- L3 cache: 39 seconds
+- RAM: 5 minutes
+- HDD: 9 months
+- SSD: 1 day
