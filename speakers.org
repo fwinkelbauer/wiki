@@ -21,3 +21,4 @@
 - [[search:J.%20B.%20Rainsberger][J. B. Rainsberger]]
 - [[search:Chad%20Fowler][Chad Fowler]]
 - [[search:Bret Victor][Bret Victor]]
+- [[search:Martin Kleppmann][Martin Kleppmann]]
