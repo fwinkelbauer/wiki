@@ -24,11 +24,4 @@ The five healthy habits were defined as:
 - Having a diet rich in items such as fruit, vegetables and whole grains and
   low in red meat, saturated fats and sugar
 
-Dr. Walch:
-
-A typical plate should look like this:
-- One half vegetables
-- One quarter side dishes
-- One quarter (high quality) meat
-
 [grub]: http://www.grubstreet.com/2018/03/ultimate-conversation-on-healthy-eating-and-nutrition.html
