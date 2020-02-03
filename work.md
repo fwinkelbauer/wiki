@@ -44,7 +44,7 @@ them.
 **likely to change**. Each module is then designed to **hide such a decision**
 from the others." - David Parnas
 
-The goal of modulariy is not to make things easier but to hide the things that
+The goal of modularity is not to make things easier but to hide the things that
 are hard.
 
 # How To Deal With Configuration
@@ -75,61 +75,10 @@ are hard.
 - **Impact:** so I felt like I wasn't being allowed to share my opinion with the
   team
 
-# Visual Studio
-
-## Style
+# Visual Studio Style
 
 - Import `solarized.vssettings`
 - Increase font size
-
-## Extension
-
-- [Match Margin](https://marketplace.visualstudio.com/items?itemName=VisualStudioProductTeam.MatchMargin)
-
-## Hotkeys
-
-### Edit
-
-| Shortcut            | Description          |
-| ------------------- | -------------------- |
-| Ctrl + Backspace    | Delete word to start |
-| Ctrl + Del          | Delete word to end   |
-| Shift + Alt + Enter | Fullscreen           |
-| Ctrl + Shift + V    | Clipboard            |
-
-### Navigate
-
-| Shortcut               | Description                         |
-| ---------------------- | ----------------------------------- |
-| Ctrl + G               | Go to line                          |
-| Ctrl + ,               | Navigate to input                   |
-| Ctrl + Shift + Up/Down | Previous/next highlighted reference |
-
-### Code
-
-| Shortcut             | Description                    |
-| -------------------- | ------------------------------ |
-| Ctrl + K, Ctrl + S   | Surround with snippet          |
-| Ctrl + K, Ctrl + C   | Comment out selection          |
-| Ctrl + K, Ctrl + U   | Uncomment selection            |
-| Ctrl + .             | Open IntelliSense context menu |
-| Ctrl + R, Ctrl + R   | Rename                         |
-| Ctrl + Shift + Space | Show parameter info            |
-
-### Other
-
-| Shortcut         | Description          |
-| ---------------- | -------------------- |
-| Ctrl + Shift + B | Build solution       |
-| Ctrl + R, B      | Run all tests        |
-| F5               | Run / Continue       |
-| F10              | Step over            |
-| F11              | Step into            |
-| Shift + F11      | Step out             |
-| F12              | Go to definition     |
-| Ctrl + F12       | Go to implementation |
-| Shift + F12      | Find all references  |
-| Ctrl + Q         | Quick launch         |
 
 # Test Doubles
 
