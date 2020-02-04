@@ -75,11 +75,6 @@ are hard.
 - **Impact:** so I felt like I wasn't being allowed to share my opinion with the
   team
 
-# Visual Studio Style
-
-- Import `solarized.vssettings`
-- Increase font size
-
 # Test Doubles
 
 Explained by [Uncle
