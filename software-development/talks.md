@@ -342,3 +342,20 @@ All these values seem "low enough", but let's but them into perspective using a
 - RAM: 5 minutes
 - HDD: 9 months
 - SSD: 1 day
+
+## [Design, Composition, and Performance - Rich Hickey](https://www.youtube.com/watch?v=MCZ3YgeEUPg)
+
+- Design is taking things apart so you can put them back together
+- An instrument is a tool for an expert
+- You learn an instrument by playing the actual instrument. There is no real
+  alternative. This means, that you are using an experts tool while being a
+  novice. But you won't be a novice for long
+- An instrument is (for the most part) very simple. It is made to work in a very
+  specific way. Composers can use several instruments to create a predictable
+  outcome. This would be hard if instruments weren't that limited
+- A musician spends most of his time practicing instead of performing. Why is
+  our industry different?
+- We should build interfaces for machines first and then put an interface for a
+  human on top
+- Constraint is a driver for creativity
+- Design is making decisions. It's about saying no
