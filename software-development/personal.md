@@ -5,19 +5,6 @@
 | **High Will** | Guide         | Delegate       |
 | **Low Will**  | Direct        | Excite         |
 
-
-# Project Checklist
-
-- [ ] No sensitive data in SCM
-- [ ] Meta data up-to-date
-  - Corporate identity
-  - Copyright
-  - Current version number (or SCM id)
-- [ ] Changelog up-to-date
-- [ ] Projects use code analysis, auto-formatter and style checks
-- [ ] Pipeline warnings are treated as errors
-- [ ] No artifacts are stored in SCM
-
 # CTO
 
 As a CTO, my default loop is "First, cycle through all my employees and make
