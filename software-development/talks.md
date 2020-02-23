@@ -359,3 +359,63 @@ All these values seem "low enough", but let's but them into perspective using a
   human on top
 - Constraint is a driver for creativity
 - Design is making decisions. It's about saying no
+
+## [Thinking Fast and Slow (Linda Rising)](https://www.youtube.com/watch?v=XjbTLIqnq-o)
+
+**System 1:**
+
+- Unconscious (runs 24/7)
+- Fast, intuitive
+- Can multi-task
+- ~11 million bits/second
+- 95% of cognitive function
+- inaccessible
+
+**System 2:**
+
+- Conscious
+- Slow, rational, forgetful
+- Linear (Cannot multi-task)
+- ~40 bits/second
+- 5% of cognitive function
+
+We identify with System 2 and we believe, that System 2 is in charge.
+
+System 1 gains its speed by using heuristics. It is also in charge of "telling
+our story" in which we are identified as the hero. System 1 is prone to biases
+such as:
+
+- **Confirmation bias:** We seek confirmation instead of information. We like to
+  stick to our point of view, even in the face of evidence which supports a
+  different point
+- **Cognitive dissonance:** We have a hard time to keep two contradicting ideas
+  in our head
+- **Naive realism:** We believe that we are rational and that a disagreeing part
+  will "see" if we present them "our facts"
+
+We overestimate our own understanding and underestimate the role of randomness
+in our world. We seek for patterns and explanations, even if there aren't any.
+
+System 2 can only focus for about 50 minutes (max) before taking a break.
+
+We use System 2 to learn something new. Over time, a certain skill moves to
+System 1 (e.g. walking, driving, or playing an instrument). After is has moved
+to System 1, interference from System 2 can hurt our performance by
+"overthinking".
+
+System 2 takes a lot of energy. Self control causes a drop in your blood
+glucose. We have a limited pool of "mental energy". This is why we tend to make
+worse decisions when tired or hungry.
+
+System 2 believes that it runs the show, but System 1 is in charge! And that's
+good. You don't want to trust a system which lets you forget your keys to care
+about essential tasks such as breathing.
+
+**Better Meetings:**
+
+- Water, tea, coffee available
+- Standing should be OK
+- Very small groups
+- Limit meeting times to ~40 minutes. For longer meetings, take a different seat
+  after a break
+- 10 minute break before important decisions
