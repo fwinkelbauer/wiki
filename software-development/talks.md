@@ -318,7 +318,7 @@ Implementing edge triggered systems imply, that you have solved the "deliver
 just once" problem. Level triggered (and idempotent) systems seem to be a
 simpler solution.
 
-## [Big Numbers and the 1Hz CPU with Tom Hudson](https://www.youtube.com/watch?v=pDBOC6I3K8g)
+## [Big Numbers and the 1Hz CPU (Tom Hudson)](https://www.youtube.com/watch?v=pDBOC6I3K8g)
 
 We do not have a good intuition for how fast different parts of a computer are.
 
@@ -343,7 +343,7 @@ All these values seem "low enough", but let's but them into perspective using a
 - HDD: 9 months
 - SSD: 1 day
 
-## [Design, Composition, and Performance - Rich Hickey](https://www.youtube.com/watch?v=MCZ3YgeEUPg)
+## [Design, Composition, and Performance (Rich Hickey)](https://www.youtube.com/watch?v=MCZ3YgeEUPg)
 
 - Design is taking things apart so you can put them back together
 - An instrument is a tool for an expert
@@ -419,3 +419,30 @@ about essential tasks such as breathing.
 - Limit meeting times to ~40 minutes. For longer meetings, take a different seat
   after a break
 - 10 minute break before important decisions
+
+## [Mistakes and Discoveries While Cultivating Ownership (Aaron Blohowiak)](https://www.youtube.com/watch?v=ddOGmao_cnA)
+
+Netflix Culture:
+
+- **Avoid rules:** Do not constraint people. We need good judgment
+- **People over Process:** The world is changing, while your process is lacking
+  behind
+- **Context not Control:** You can't really good decisions if you do not
+  understand your environment. A manager knows less than the "people in the
+  field"
+- **Freedom and Responsibility:** Have options and hold people responsible for
+  the quality of their decision making
+
+Levels of Ownership:
+
+0. **Demonstration:** No ownership
+1. **Oversight:** You do it, but we will pre-approve it
+2. **Observation:** You do it and we will review it after it is done
+3. **Execution:** Here's where we want to go and we know that you will pull it
+   off. We might check just so that we know what's going on
+4. **Vision:** You understand your responsibilities and your shareholder's needs
+
+Mistakes:
+
+- Different ideas about which level we should be at
+- Not being explicit when levels change
