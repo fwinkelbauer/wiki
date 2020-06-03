@@ -24,3 +24,4 @@
 - [[search:Martin Kleppmann][Martin Kleppmann]]
 - [[search:Christin Gorman][Christin Gorman]]
 - [[search:Kent Beck][Kent Beck]]
+- [[search:Linda Rising][Linda Rising]]
