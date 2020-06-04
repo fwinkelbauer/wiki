@@ -446,3 +446,9 @@ Mistakes:
 
 - Different ideas about which level we should be at
 - Not being explicit when levels change
+
+## [Changing your Habits & Environment to get more Professional Productivity (Linda Rising)](https://www.youtube.com/watch?v=mrHjHdyRDNY)
+
+- We sit too much and move too little
+- Lying down can improve your problem solving skills
+- Try to have meetings while walking
