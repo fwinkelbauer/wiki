@@ -127,13 +127,6 @@ This is critical: You don't know how you come up with your decision.
 - Shared mutability is the devil's work
 - Using a library is like dating, using a framework is like getting married
 
-## [Green is Good Red is Bad - Turning your Checklists into Pester Tests (Rob Sewell)](https://www.youtube.com/watch?v=Qy-uvT57pt8)
-
-- You can use Pester (a PowerShell unit testing framework) to test your
-  infrastructure
-- Use the NunitXML output format together with `reportviewer.exe` to create
-  pretty HTML reports. Management loves them
-
 ## [Transactions - Myths, Suprises and Opportunities (Martin Kleppmann)](https://www.youtube.com/watch?v=5ZjhNTM8XU8)
 
 ACID is more or less a marketing term, it isn't too precise.
