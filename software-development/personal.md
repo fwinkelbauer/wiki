@@ -7,9 +7,12 @@
 
 # CTO
 
-As a CTO, my default loop is "First, cycle through all my employees and make
-sure that I have equipped them to be happy and productive in their jobs. Second,
-find something to do. If possible, delegate it; if not, do it. Repeat."
+I can't remember where I picked up this quote:
+
+> As a CTO, my default loop is "First, cycle through all my employees and make
+> sure that I have equipped them to be happy and productive in their jobs.
+> Second, find something to do. If possible, delegate it; if not, do it.
+> Repeat."
 
 # Decision Logs
 
@@ -61,102 +64,6 @@ are hard.
 - **Behavior:** you spoke across me several times
 - **Impact:** so I felt like I wasn't being allowed to share my opinion with the
   team
-
-# Test Doubles
-
-Explained by [Uncle
-Bob](https://blog.cleancoder.com/uncle-bob/2014/05/14/TheLittleMocker.html):
-
-``` java
-interface Authorizer {
-  public Boolean authorize(String username, String password);
-}
-```
-
-## Dummy
-
-``` java
-public class DummyAuthorizer implements Authorizer {
-  public Boolean authorize(String username, String password) {
-	return null;
-    }
-}
-```
-
-Use it if the object is never used. The `NullPointerException` can help you to
-insure such thing.
-
-## Stub
-
-``` java
-public class AcceptingAuthorizerStub implements Authorizer {
-  public Boolean authorize(String username, String password) {
-    return true;
-  }
-}
-```
-
-A stub can help to reduce coupling.
-
-**Example:** With this stub your test does
-not need to care about the actual login operation. It can behave as if it was
-already logged in.
-
-## Spy
-
-``` java
-public class AcceptingAuthorizerSpy implements Authorizer {
-  public boolean authorizeWasCalled = false;
-
-  public Boolean authorize(String username, String password) {
-    authorizeWasCalled = true;
-    return true;
-  }
-}
-```
-
-The more you spy on an object, the tighter the coupling between test and
-implementation becomes.
-
-## Mock
-
-```java
-public class AcceptingAuthorizerVerificationMock implements Authorizer {
-  public boolean authorizeWasCalled = false;
-
-  public Boolean authorize(String username, String password) {
-    authorizeWasCalled = true;
-    return true;
-  }
-
-  public boolean verify() {
-    return authorizedWasCalled;
-  }
-}
-```
-
-A mock knows how it is supposed to be used.
-
-## Fakes
-
-``` java
-public class AcceptingAuthorizerFake implements Authorizer {
-  public Boolean authorize(String username, String password) {
-    return username.equals("Bob");
-  }
-}
-```
-
-Fakes have business behaviors. Think of it as a simulator. Uncle Bob claims,
-that he has not written any fake object in over 30 years. Be careful.
-
-## Summary
-
-Uncle Bob:
-
-> A Mock is a kind of spy, a spy is a kind of stub, and a stub is a kind of
-> dummy. But a fake isn't a kind of any of them. It's a completely different
-> kind of test double.
 
 # Cynefin Framework
 
