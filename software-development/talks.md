@@ -445,3 +445,17 @@ Mistakes:
 - We sit too much and move too little
 - Lying down can improve your problem solving skills
 - Try to have meetings while walking
+
+## [Functional data that adapts to change (Don Syme)](https://www.youtube.com/watch?v=us4dp7Ksly0)
+
+- Classic UIs are built using the MVVM pattern
+- A different approach to building UI is called MVU: Model, View, Update
+  - Examples: Svelte, Elm, React Native
+- MVU is based on functional principles
+- There is a unidirectional data flow
+- "UI becomes calculation and information, not state"
+- We create a view based on a model and update the model through messages, which
+  in turn changes the view
+- An initial reaction might be that "functional" and "high performance" cannot
+  go together. The key to making it work is "incremental functional
+  programming", which is related to event sourcing
