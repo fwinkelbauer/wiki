@@ -86,3 +86,21 @@ are hard.
 
 - Time = Money
 - Technical excellence is everything
+
+# A Good Code Base
+
+The user "l0b0" outlined on [Hacker
+News](https://news.ycombinator.com/item?id=24611256) what he expects in a good
+code base:
+
+> - A working CI pipeline.
+> - Comprehensive tests.
+> - Enforced linting/formatting.
+> - A script (or at least documentation) to set up a dev env from scratch
+>   (including resetting it if it already exists).
+> - Documentation of things which would take days or weeks to discover when
+>   working without the original developers, such as high-level trade-offs, code
+>   style which is not enforceable using linting (such as "Use Foo.frobnicate
+>   rather than the built-in frobnicator because ...") references to issue trackers,
+>   former non-committing project-related people such as business analysts,
+>   separate documentation, credentials etc.
