@@ -459,3 +459,29 @@ Mistakes:
 - An initial reaction might be that "functional" and "high performance" cannot
   go together. The key to making it work is "incremental functional
   programming", which is related to event sourcing
+
+## [A Cheap Effective Method for Dealing with Stressful Situations (Linda Rising)](https://www.youtube.com/watch?v=ODpq_6qcPIA)
+
+- The pandemic has created a very stressful environment
+- Long periods of anxiety compromises our immune system
+- What doesn't work:
+  - Suppressing/denying a stressful situation
+  - Positive thinking (not strong enough)
+  - Distractions
+  - Venting
+  - Blaming others/circumstances
+- What does work: expressive writing. Write about your troubles
+- General instructions
+  - Write 15-20 min/day for 4-5 consecutive days
+  - Topic should be personal and important
+  - Write continuously. Don't worry about punctuation, spelling, grammar. If you
+    run out of things to say, repeat what you have written. Keep pen on paper.
+  - Write only for yourself. Destroy or hide what you are writing. Do not turn
+    the exercise into a letter. The result is for your eyes only.
+  - If you feel you cannot write about something because it will push you over
+    the edge, STOP!
+  - Some feel sad after writing, especially on the first day. This feeling
+    usually goes away in an hour or so
+- **Pen and paper work best**, but typing or voice recording are OK
+- Writing before stressful situations (e.g. test taking, presentations, surgery,
+  ...) can also be beneficial
