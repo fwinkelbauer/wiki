@@ -104,3 +104,11 @@ code base:
 >   rather than the built-in frobnicator because ...") references to issue trackers,
 >   former non-committing project-related people such as business analysts,
 >   separate documentation, credentials etc.
+
+# Design Principles
+
+J. B. Rainsberger mentioned this in his talk [Programming Is The Easy
+Part](https://www.youtube.com/watch?v=SbGiSH_8UGk):
+
+A lot of high level software design principles boil down to a linear combination
+of "remove duplication" and "improve names".
