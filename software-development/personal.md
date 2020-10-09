@@ -112,3 +112,9 @@ Part](https://www.youtube.com/watch?v=SbGiSH_8UGk):
 
 A lot of high level software design principles boil down to a linear combination
 of "remove duplication" and "improve names".
+
+# (ELI5 Concurrent And Parallel Programming](https://joearms.github.io/published/2013-04-05-concurrent-and-parallel-programming.html)
+
+Created by Joe Armstrong:
+
+![Coffee Example](./con_and_par.jpg)
