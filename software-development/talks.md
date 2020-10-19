@@ -485,3 +485,26 @@ Mistakes:
 - **Pen and paper work best**, but typing or voice recording are OK
 - Writing before stressful situations (e.g. test taking, presentations, surgery,
   ...) can also be beneficial
+
+## [If (domain logic) then CQRS, or Saga (Udi Dahan)](https://www.youtube.com/watch?v=fWU8ZK0Dmxs)
+
+- Hard deletes are painful as they can lead to cascading deletes (e.g. deleting
+  a product may delete user purchases)
+- We use soft deletes as a "quick fix" to the cascading delete problem
+- But deleting makes a lot of sense in a "private domain", e.g. when a user
+  updates the product catalog. We can treat this domain as a sandbox, where the
+  user can manipulate data in an easy way
+- We need to validate data when we are publishing it from the "private domain"
+  to a "public domain" (e.g. so that the customer can see the updated product
+  catalog)
+- Deletes in a "public domain" hide business intent. Why do you want to delete
+  data? Do you really want to delete this product, or do intent to no longer
+  sell this product?
+- Systems like Amazon are a collaborative domain. Checking invariants is doomed
+  to be full of race conditions. Example: A user adds a product to his shopping
+  cart. An employee marks the same product as "not for sale". Depending on the
+  timing of these requests, an invariance such as "a user cannot buy an item if
+  it is not for sale" cannot hold.
+- We need to deal with eventual consistency in the context of the business.
+  Don't confuse this with technical eventual consistency (e.g. updating read
+  models)
