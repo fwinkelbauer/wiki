@@ -118,3 +118,8 @@ of "remove duplication" and "improve names".
 Created by Joe Armstrong:
 
 ![Coffee Example](./con_and_par.jpg)
+
+# Hiring Process
+
+- [Resource](https://thetechresume.com/) to help a developer in the hiring
+  process
