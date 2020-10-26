@@ -123,3 +123,8 @@ Created by Joe Armstrong:
 
 - [Resource](https://thetechresume.com/) to help a developer in the hiring
   process
+
+# Chaos Engineering
+
+Adding parameters for sleep timers and error rates to service requests can be an
+easy way to test how a specific service deals with issues in isolation.
