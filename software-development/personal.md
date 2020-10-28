@@ -128,3 +128,13 @@ Created by Joe Armstrong:
 
 Adding parameters for sleep timers and error rates to service requests can be an
 easy way to test how a specific service deals with issues in isolation.
+
+# Database Migrations
+
+Based on [this article](https://martinfowler.com/articles/evodb.html):
+
+- Every developer has his/her own database. The build script offers ways to
+  create and delete a database based on a configuration file (which is not put
+  into version control). This configuration file contains the database name as
+  well as a connection string
+- Migration scripts (and test data) are put into version control
