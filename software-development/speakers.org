@@ -27,3 +27,4 @@
 - [[search:Linda Rising][Linda Rising]]
 - [[search:Casey Rosenthal][Casey Rosenthal]]
 - [[search:Stefan Tilkov][Stefan Tilkov]]
+- [[search:Michael Nygard][Michael Nygard]]
