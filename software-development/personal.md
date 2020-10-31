@@ -161,3 +161,24 @@ Five Ideals
 - Improvement of Daily Work
 - Psychological Safety
 - Customer Focus
+
+# CAP Theorem
+
+- **C**onsistency
+- **A**vailability
+- **P**artition tolerance
+
+This theorem states that given a network partition (a split brain situation), a
+distributed system can either favor consistency or availability.
+
+**Example:** Imagine that you are part of a fully remote wedding. Let's imagine
+that you answer "the big question" with yes and let's imagine that your
+phone/internet connection breaks before your significant other can answer the
+same question. What do you do? Do you say that you are married/not married (in
+which case you would favor availability) or do you say "I don't know" (in which
+case you would favor consistency).
+
+The PACELC theorem is an extension to the CAP theorem: In case of a network
+**P**artition, one has to choose between **A**vailability and **C**onsistency,
+**E**lse, when a system does not have a partition, one has to choose between
+**L**atency and **C**onsistency.
