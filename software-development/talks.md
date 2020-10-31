@@ -508,3 +508,17 @@ Mistakes:
 - We need to deal with eventual consistency in the context of the business.
   Don't confuse this with technical eventual consistency (e.g. updating read
   models)
+
+## [Cultivating Architecture (Martin Fowler, Birgitta Böckeler)](https://www.youtube.com/watch?v=MZnrxjw602E)
+
+- Good architecture can accelerate a team as it can keep the cost of change down
+- Software delivery performance correlates with organizational performance
+- Strive to create autonomous teams
+- Inform technical staff about the business goals
+- Create a set of guiding principles which should help a team when dealing with
+  architecture decisions
+  - Find principles by identifying what's moving you forward and what's holding
+    you back
+- Create your own tech radar. What technology do we use? What do we want to try?
+  What do we want to get rid of?
+- Document any decisions. A simple markdown file might be enough
