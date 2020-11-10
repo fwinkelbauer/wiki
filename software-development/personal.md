@@ -182,11 +182,3 @@ The PACELC theorem is an extension to the CAP theorem: In case of a network
 **P**artition, one has to choose between **A**vailability and **C**onsistency,
 **E**lse, when a system does not have a partition, one has to choose between
 **L**atency and **C**onsistency.
-
-# Jez Humble
-
-Taken from his talk "What I learned from three years of sciencing the crap out
-of DevOps":
-
-- Job satisfaction is the biggest indicator for organization performance
-- IT companies with high throughput perform better in terms of stability

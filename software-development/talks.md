@@ -522,3 +522,8 @@ Mistakes:
 - Create your own tech radar. What technology do we use? What do we want to try?
   What do we want to get rid of?
 - Document any decisions. A simple markdown file might be enough
+
+## [What I learned from three years of sciencing the crap out of DevOps (Jez Humble)](https://www.youtube.com/watch?v=kr08zSnyU20)
+
+- Job satisfaction is the biggest indicator for organization performance
+- IT companies with high throughput perform better in terms of stability
