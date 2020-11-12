@@ -23,6 +23,14 @@ Create logs that hold the following information:
 - What did you choose? Why? Risks?
 - What other things have you considered? Why didn't you choose them?
 
+Michael Nygard described his decision log structure in [this blog
+post](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions):
+
+- **Context:** Describe the forces at play
+- **Decision:** Your response to these forces
+- **Status:** The decision status (e.g. "proposed")
+- **Consequences:** What happened afterwards?
+
 # Backups
 
 Backups don't mean anything unless you have actually tried to restore data from
