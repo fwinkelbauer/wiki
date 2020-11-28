@@ -527,3 +527,18 @@ Mistakes:
 
 - Job satisfaction is the biggest indicator for organization performance
 - IT companies with high throughput perform better in terms of stability
+
+## [Files (Dan Luu)](https://www.deconstructconf.com/2019/dan-luu-files)
+
+- We believe that file systems are a solved problem and that they share a common
+  abstraction, but that is not true
+- Writing a file may seem easy, but there's a lot that could go wrong. File
+  systems have bugs too
+- File operations may not be atomic
+- Even great programmers make mistakes when using the file system. Static
+  analysis tools found bugs when inspecting code bases such as Git, Postgres
+- Sqlite is a rather stable way to interact with the file system
+- Different file systems have different behavior when dealing with errors
+- SSDs need ECC (error correcting codes) not be "better", but rather to work at
+  all
+- Computers don't work
