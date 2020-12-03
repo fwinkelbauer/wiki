@@ -190,3 +190,12 @@ The PACELC theorem is an extension to the CAP theorem: In case of a network
 **P**artition, one has to choose between **A**vailability and **C**onsistency,
 **E**lse, when a system does not have a partition, one has to choose between
 **L**atency and **C**onsistency.
+
+# Idealcast
+
+Taken from The Idealcast podcast episode 14:
+
+Employee satisfaction can indicate the performance of an organization. Ask:
+
+- Are you happy?
+- Are you able to do work that you are proud of?
