@@ -542,3 +542,26 @@ Mistakes:
 - SSDs need ECC (error correcting codes) not be "better", but rather to work at
   all
 - Computers don't work
+
+## [Optimize For Time (Andy Walker)](https://www.youtube.com/watch?v=fBr8BKPW5tc)
+
+- High performing teams seem to have more time to get things done. They don't
+  hurry. They hit their deadlines
+- Struggling teams seem to always be behind
+- Busyness is a curse
+- Four things he holds true
+  - Invest in improvement
+  - Respect each other's time
+  - Ruthless about time (say no to things that don't make sense)
+  - Anticipate problems
+- What if the team is the product? If you are not investing in moving faster
+  you're moving slower
+- Only interrupt people if there is an important reason to do so
+- Teams that invest in each other achieve more
+- Change is expensive! Fail fast
+- When given a hard deadline, work from the basis that everything is going to
+  failure
+  - Plan for failure
+  - Plan to fail cheaply
+  - Your plan is not the outcome
+  - Recover quickly
