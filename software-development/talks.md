@@ -565,3 +565,20 @@ Mistakes:
   - Plan to fail cheaply
   - Your plan is not the outcome
   - Recover quickly
+
+## [Conversational Transformation (Jeffrey Fredrick, Douglas Squirrel)](https://www.youtube.com/watch?v=RMT_Tqzf_vc)
+
+Conversational Analysis with The 4 Rs
+
+- Record
+  - Fold a piece of paper in half. Write the major points of your conversation
+    on the right hand side. Record what you thought (but didn't say) on the left
+    hand side
+- Reflect
+  - How many genuine questions were asked?
+  - What is on the left side that isn't on the right?
+  - What sets off negative reactions for you?
+- Revise
+- Roleplay
+- (Repeat)
+- (Role-reversal)
