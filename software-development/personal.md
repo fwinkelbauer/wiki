@@ -132,6 +132,10 @@ Created by Joe Armstrong:
 - [Resource](https://thetechresume.com/) to help a developer in the hiring
   process
 
+# CLI Guideline
+
+- [Written guide](https://clig.dev/)
+
 # Chaos Engineering
 
 Adding parameters for sleep timers and error rates to service requests can be an
