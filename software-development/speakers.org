@@ -30,3 +30,4 @@
 - [[search:Michael Nygard][Michael Nygard]]
 - [[search:Allen Holub][Allen Holub]]
 - [[search:Jez Humble][Jez Humble]]
+- [[search:John Hughes][John Hughes]]
