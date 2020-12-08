@@ -582,3 +582,21 @@ Conversational Analysis with The 4 Rs
 - Roleplay
 - (Repeat)
 - (Role-reversal)
+
+## [Continuous Retrospectives (Linda Rising)](https://www.youtube.com/watch?v=1wzedZcSmKY)
+
+- In times like COVID we cannot even remember what day it is. How can we then
+  have a meaningful discussion (retrospective) about a long project?
+- Continuous retrospectives: Hang up a timeline and add sticky notes through out
+  the day. Capture ideas, questions, concerns, events, problems, success,
+  failure
+- Spend the last 15 minutes writing about, reflecting on lessons learned that
+  day
+- Guide Boards
+  - https://www.youtube.com/watch?v=DnZnb22Cgd8
+  - https://mattischneider.fr/agile/guide-board/paper.pdf
+  - https://mattischneider.fr/anthropologie/agile/thesis
+- Retrospectives offer different opportunities:
+  - Project: long term learning (strategic)
+  - Iteration: what should we do now? (tactical)
+  - Continuous: small experiments
