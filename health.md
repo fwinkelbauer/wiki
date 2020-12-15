@@ -25,3 +25,9 @@ The five healthy habits were defined as:
   low in red meat, saturated fats and sugar
 
 [grub]: http://www.grubstreet.com/2018/03/ultimate-conversation-on-healthy-eating-and-nutrition.html
+
+# Essentials
+
+- Legumes (beans, lentils, chickpea, ...)
+- Whole-grain, starch (rice, quinoa, corn, sweet potato, ...)
+- Leafy greens and other vegetables
