@@ -1,3 +1,16 @@
+* Ideas
+
+Functional programs try to avoid state by using three techniques:
+
+- *Minimize* state
+  - Immutable data structures
+  - Derive state from other state (e.g. the current player of a Tic Tac Toe game
+    can be derived based on the board state)
+  - Recurse
+  - Pass functions
+- *Concentrate* state into fewer places
+- *Defer* actions (e.g. Elm architecture)
+
 * Functors
 
 - A functor is a data container which provides a map operation. Example:
