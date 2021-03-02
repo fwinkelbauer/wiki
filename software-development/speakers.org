@@ -31,3 +31,5 @@
 - [[search:Allen Holub][Allen Holub]]
 - [[search:Jez Humble][Jez Humble]]
 - [[search:John Hughes][John Hughes]]
+- [[search:Rafal Dittwald][Rafal Dittwald]]
+- [[search:Michael Bryzek][Michael Bryzek]]
