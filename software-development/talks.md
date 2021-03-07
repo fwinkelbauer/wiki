@@ -600,3 +600,24 @@ Conversational Analysis with The 4 Rs
   - Project: long term learning (strategic)
   - Iteration: what should we do now? (tactical)
   - Continuous: small experiments
+
+## [Solving Problems the Clojure Way (Rafal Dittwald)](https://www.youtube.com/watch?v=vK1DazRK_a0)
+
+- Imperative code spreads state, mutation and side effects, which makes larger
+  programs harder to understand and change
+- Object oriented programming tries to solve these problems through classes and
+  encapsulation. The preferred thinking model revolves around agents and how
+  they communicate with each other
+- While we cannot get rid of state, functional programming uses a set of
+  techniques to avoid state wherever possible. Rafal outlines a few techniques:
+  - **Minimize** state
+      - Derive state from other state (e.g. the current player of a Tic Tac Toe
+        game can be derived based on the board state)
+      - Use immutable data structures instead of mutation
+      - Pass lambdas
+      - Recursion
+  - **Concentrate** state into fewer places
+  - **Defer** actions (e.g. Elm architecture)
+- Given a graph of components, the typical OO approach is to keep state
+  separated by pushing it down as far as we can. The FP approach would be to put
+  all the state into the root node
