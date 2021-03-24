@@ -136,6 +136,10 @@ Created by Joe Armstrong:
 
 - [Written guide](https://clig.dev/)
 
+# Cryptography
+
+- [Online book](https://cryptobook.nakov.com/)
+
 # Chaos Engineering
 
 Adding parameters for sleep timers and error rates to service requests can be an
