@@ -28,3 +28,21 @@ Techniques:
   failed?
 - Subjective Probability Interval Estimates (SPIES): Estimate the probability of
   several outcomes
+
+Lessons:
+
+- Charm school (Everyone should be able to express concern)
+  - Get attention
+  - Express your concern
+  - State the perceived problem
+  - Propose a solution
+  - Ask for agreement
+- Soften power cues
+  - This makes you more approachable, which can encourage people to speak their
+    mind
+- Leaders speak last
+  - Encourage discussion about different solutions
+  - Not encouraging a discussion can be compared to discouraging a discussion
+
+Diverse groups are "better" because group members are more skeptical which in
+turn makes it more likely to catch small errors.
