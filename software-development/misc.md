@@ -212,3 +212,14 @@ Employee satisfaction can indicate the performance of an organization. Ask:
 - Are you able to do work that you are proud of?
 
 [klepp]: https://martin.kleppmann.com/2015/05/11/please-stop-calling-databases-cp-or-ap.html
+
+# Believes
+
+- Be prepared to throw away something you’ve done in order to do something
+  different.
+- Always look for better ways of doing things.
+- “Good enough” isn’t good enough.
+- Code is a liability, not an asset
+- Treat code like a garden. You are never "done"
+- Prefer immutability
+- Model actions as data

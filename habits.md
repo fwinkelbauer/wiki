@@ -49,12 +49,12 @@ Use small steps to boost your confidence. **Reflect regularly**!
 
 - Evidence (seeing how fast you are driving)
 - Relevance (you know that you are too fast)
-- Consqequence (you might get a ticket)
+- Consequences (you might get a ticket)
 - Action (so you reduce your speed)
 
 ## Two Truths
 
-1. Meaningful behavioural change is very hard to do
+1. Meaningful behavioral change is very hard to do
 2. No one can make us change unless we truly want to change
 
 ## Snippets
@@ -64,7 +64,7 @@ Use small steps to boost your confidence. **Reflect regularly**!
 - We are inaccurate in assessing ourselves
 - We are great planners, but reluctant doers
 - A trigger is only a problem if our reaction creates a problem
-- There are areas in our lifes in which we think that we can "just wing it"
+- There are areas in our life in which we think that we can "just wing it"
 - We need help when we are least likely to get it. We behave against our own
   interest and might not even realize it.
 - "We are professionals at what we do, amateurs at what we want to become."
