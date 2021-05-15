@@ -223,3 +223,5 @@ Employee satisfaction can indicate the performance of an organization. Ask:
 - Treat code like a garden. You are never "done"
 - Prefer immutability
 - Model actions as data
+- Abstractions and data schemas are hard to get right. You will most likely
+  change them in the future, so prepare yourself
