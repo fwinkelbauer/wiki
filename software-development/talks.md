@@ -621,3 +621,8 @@ Conversational Analysis with The 4 Rs
 - Given a graph of components, the typical OO approach is to keep state
   separated by pushing it down as far as we can. The FP approach would be to put
   all the state into the root node
+
+## [Persistent Data Structures and Managed References (Rich Hickey)](https://www.infoq.com/presentations/Value-Identity-State-Rich-Hickey/)
+
+- Identity: An entity we associate with a series of relates values over time
+- State: Value of an identity at a time
