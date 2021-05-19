@@ -624,5 +624,17 @@ Conversational Analysis with The 4 Rs
 
 ## [Persistent Data Structures and Managed References (Rich Hickey)](https://www.infoq.com/presentations/Value-Identity-State-Rich-Hickey/)
 
+- Pure functions have no notion of time and no effect on the world
+- Concurrency breaks variables badly
+  - Might not be atomic (e.g. long)
+  - Need locks or volatile keywords
 - Identity: An entity we associate with a series of relates values over time
+  - Can be a composite (e.g. the members of a sports team might change, but we
+    still consider it to be the same sports team)
 - State: Value of an identity at a time
+- Value: An immutable structure (e.g. numbers, strings, ...)
+- Overall philosophy
+  - Things don't change in place
+  - See time as a dimension
+  - The future is a function of the past (and doesn't change it)
+  - Co-located entities can observe each other without cooperation
