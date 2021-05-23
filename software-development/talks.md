@@ -638,3 +638,23 @@ Conversational Analysis with The 4 Rs
   - See time as a dimension
   - The future is a function of the past (and doesn't change it)
   - Co-located entities can observe each other without cooperation
+
+## [End to end functional tests that can run in milliseconds (Nat Pryce)](https://www.youtube.com/watch?v=Fk4rCn4YLLU)
+
+- They applied the hexagonal architecture model in combination with
+  "screenplays"
+- Tests can run in different scenarios (in memory, using a Browser with or
+  without JS, REST calls, ...)
+- They put all interactions (e.g. steps a user takes to update his mail address)
+  behind an interface, so that these "use cases" don't know anything about a
+  scenario. This technique allows the team to change an N*M mapping to an N+M
+  mapping
+- Gives great feedback about the actual state of the system. Such an approach
+  can find problems in your CDN configuration or your caching policies
+- Makes the overall system more observable
+- To test/maintain a system we need to
+  - Know what the system is doing
+  - Know when it has stopped doing it
+  - Know when the system has failed
+  - Explain what has gone wrong
+  - Restore the system to a good state
