@@ -658,3 +658,22 @@ Conversational Analysis with The 4 Rs
   - Know when the system has failed
   - Explain what has gone wrong
   - Restore the system to a good state
+
+## [Design Microservice Architectures the Right Way (Michael Bryzek)](https://www.youtube.com/watch?v=j6ow-UemzBc)
+
+- Describe APIs/Events/Databases (e.g. by using JSON) and invest in tooling
+  - Create custom linters to ensure that common naming conventions are used
+  - Use code generation to automate API creation using CI/CD
+  - Use code generation to create mocks
+  - Create databases on the fly
+- Each microservice owns its own database. Other services use APIs + Events
+- Event principles:
+  - Producers guarantee at least once delivery
+  - Consumers implement idempotency
+
+- Design schema first for all APIs and Events
+  - Consume Events (not APIs) by default
+- Invest in automation
+  - Deployment, code generation, dependency management
+- Enable teams to write amazing and simple tests
+  - Drives quality, streamlines maintenance, enables continuous delivery
