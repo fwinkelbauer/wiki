@@ -181,8 +181,7 @@ Databases have different default and maximum isolation levels. These levels are:
 
 **Race conditions:**
 
-- Dirty Read: A transaction cannot read what another unfinished transaction
-  wrote
+- Dirty Read: A transaction can read what another unfinished transaction wrote
 - Dirty Write: Concurrent writes to several tables can interfere with each other
 - Read Skew: Imagine a transaction which transfers 100 dollars from one account
   to another. A backup process might read both accounts at different times (one
@@ -228,8 +227,8 @@ Why? Because they tend to mix two very different concepts:
 - The linear progression of time
 - An interpretation of time, based on politics, astronomy and history
 
-What time is it? 1532428776
-No, I mean what time is it? Well, that depends. Which epoch do you mean?
+What time is it? 1532428776. No, I mean what time is it? Well, that depends.
+Which epoch do you mean?
 
 | Environment | Start      |
 |-------------|------------|
@@ -246,8 +245,8 @@ guarantee, that the system time increases monotonically. So you shouldn't use
 it. Instead, use something different like the current tick count, or use your
 own sequence number.
 
-UTC (which stands for Coordinated Universal Time. Yes, UTC. Yep.) is an effort
-to create a system on which we can all agree.
+UTC (which stands for Coordinated Universal Time) is an effort to create a
+system on which we can all agree.
 
 Coding advice:
 
@@ -255,7 +254,7 @@ Coding advice:
 - Do not store start/end timestamps. Instead, store a start timestamp together
   with a duration. This makes it much easier to deal with events such as
   day-light saving
-- Don't always mock our your database layer. The conversation of dates (which
+- Don't always mock out your database layer. The conversation of dates (which
   can depend on the time zone of your database **and** on the time zone of your
   operating system) will hunt you down
 - Make date ranges **inclusive** from and **exclusive** to (start <= value <
@@ -670,6 +669,8 @@ Conversational Analysis with The 4 Rs
 - Event principles:
   - Producers guarantee at least once delivery
   - Consumers implement idempotency
+
+Key points:
 
 - Design schema first for all APIs and Events
   - Consume Events (not APIs) by default
