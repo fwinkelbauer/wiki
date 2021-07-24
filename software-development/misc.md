@@ -90,11 +90,6 @@ are hard.
 - **Explanation:** understanding-oriented; provides background and context
 - **Reference:** information-oriented; describes inner processes
 
-# Limiting Beliefs
-
-- Time = Money
-- Technical excellence is everything
-
 # A Good Code Base
 
 The user "l0b0" outlined on [Hacker
@@ -215,13 +210,16 @@ Employee satisfaction can indicate the performance of an organization. Ask:
 
 # Believes
 
+- Working code is only the beginning
 - Be prepared to throw away something you’ve done in order to do something
-  different.
-- Always look for better ways of doing things.
-- “Good enough” isn’t good enough.
+  different
+- Always look for better ways of doing things
+- “Good enough” isn’t good enough
 - Code is a liability, not an asset
 - Treat code like a garden. You are never "done"
 - Prefer immutability
 - Model actions as data
 - Abstractions and data schemas are hard to get right. You will most likely
   change them in the future, so prepare yourself
+- Time != Money
+- Technical excellence is not everything
