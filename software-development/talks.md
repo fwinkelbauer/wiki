@@ -678,3 +678,27 @@ Key points:
   - Deployment, code generation, dependency management
 - Enable teams to write amazing and simple tests
   - Drives quality, streamlines maintenance, enables continuous delivery
+
+## [Entity Component Systems and You: They're Not Just For Game Developers (Paris Buttfield-Addison, Mars Geldard, Tim Nugent)](https://www.youtube.com/watch?v=SFKR5rZBu-8)
+
+- A paradigm/architecture which is commonly used in the game industry
+- ECS separate data and logic
+ - Entities have IDs. They are similar to primary keys and are used to identity
+   everything. Examples: camera, tree, player, enemy, particle
+ - Components have data. Components are used as an alternative to hierarchies.
+   So ECS favor composition over inheritance. Examples: Position component,
+   Velocity component, Damage component
+ - Systems have logic. These systems are often chained together and can be
+   compared to functional programming. Example: Update position of every player,
+   determine hits, calculate damage, render
+- ECS are often combined with data-oriented design to improve performance by
+  reducing cache misses. These designs can be compared to an in-memory database
+- Strengths
+  - Performance (data oriented design, parallelism)
+  - Flexibility
+  - No hierarchy
+  - Have similar advantages as microservices and functional programming
+- Weakness
+  - More code upfront
+  - Hard to keep everything in your head
+  - No clear starting point
