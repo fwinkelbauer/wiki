@@ -702,3 +702,22 @@ Key points:
   - More code upfront
   - Hard to keep everything in your head
   - No clear starting point
+
+
+## [Modern SQL A lot has changed since SQL 92 (Markus Winand)](https://www.youtube.com/watch?v=rpw_x8TtqTo)
+
+SQL has changed a lot, though most developers only know the 1992 standard
+
+- **WITH** clause: create "private" views to make a query more readable
+- **WITH RECURSIVE**: is an implementation of loops in SQL. It can be used to
+  walk hierarchies
+- **GROUPING SETS**: use several GROUP BY statements at the same time
+- **FILTER**: Adds WHERE expressions to aggregates
+- **OVER** and **PARTITION BY**: Aggregates without GROUP BY. Can be used to
+  implement features such as row-based balancing
+- **FETCH FIRST**: also known as LIMIT
+- **OFFSET**: gives the remaining data when using FETCH FIRST, but there are
+  traps. Don't use it
+- **OVER**: window functions
+- **System Versioning**: Can be used to show tables at a given time. Adds audit
+  features to destructive changes such as INSERT, UPDATE or DELETE
