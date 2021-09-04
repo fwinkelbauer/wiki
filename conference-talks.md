@@ -703,6 +703,10 @@ Key points:
   - Hard to keep everything in your head
   - No clear starting point
 
+## [Programming Is The Easy Part (J. B. Rainsberger)](https://www.youtube.com/watch?v=SbGiSH_8UGk)
+
+A lot of high level software design principles boil down to a linear combination
+of "remove duplication" and "improve names".
 
 ## [Modern SQL A lot has changed since SQL 92 (Markus Winand)](https://www.youtube.com/watch?v=rpw_x8TtqTo)
 

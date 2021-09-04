@@ -1,7 +1,5 @@
 # Communication
 
-Taken from [here](https://news.ycombinator.com/item?id%3D23092657):
-
 Favor interrogative-led questions over leading questions. A leading question
 attempts to get the listener to agree or disagree with a premise you feed to
 them. An interrogative-led question often begins with the words: who; where;

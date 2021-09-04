@@ -1,3 +1,34 @@
+# Speakers
+
+- Kevlin Henney
+- Rich Hickey
+- Greg Young
+- Michael Feathers
+- Dan North
+- Martin Fowler
+- Martin Thompson
+- Todd Montgomery
+- Bryan Cantrill
+- Mark Seemann
+- Jimmy Bogard
+- Jonathan Blow
+- Simon Brown
+- Sam Newman
+- J. B. Rainsberger
+- Chad Fowler
+- Bret Victor
+- Martin Kleppmann
+- Kent Beck
+- Linda Rising
+- Casey Rosenthal
+- Stefan Tilkov
+- Michael Nygard
+- Allen Holub
+- Jez Humble
+- John Hughes
+- Rafal Dittwald
+- Michael Bryzek
+
 # The Tao of Coaching (Max Landsberg)
 
 |               | **Low Skill** | **High Skill** |
@@ -24,12 +55,14 @@ Create logs that hold the following information:
 - What other things have you considered? Why didn't you choose them?
 
 Michael Nygard described his decision log structure in [this blog
-post](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions):
+post][architecture-decisions]:
 
 - **Context:** Describe the forces at play
 - **Decision:** Your response to these forces
 - **Status:** The decision status (e.g. "proposed")
 - **Consequences:** What happened afterwards?
+
+[architecture-decisions]: https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions
 
 # Backups
 
@@ -92,8 +125,7 @@ are hard.
 
 # A Good Code Base
 
-The user "l0b0" outlined on [Hacker
-News](https://news.ycombinator.com/item?id=24611256) what he expects in a good
+The user "l0b0" outlined on [Hacker News][codebase] what he expects in a good
 code base:
 
 > - A working CI pipeline.
@@ -108,32 +140,7 @@ code base:
 >   former non-committing project-related people such as business analysts,
 >   separate documentation, credentials etc.
 
-# Design Principles
-
-J. B. Rainsberger mentioned this in his talk [Programming Is The Easy
-Part](https://www.youtube.com/watch?v=SbGiSH_8UGk):
-
-A lot of high level software design principles boil down to a linear combination
-of "remove duplication" and "improve names".
-
-# [ELI5 Concurrent And Parallel Programming](https://joearms.github.io/published/2013-04-05-concurrent-and-parallel-programming.html)
-
-Created by Joe Armstrong:
-
-![Coffee Example](./con_and_par.jpg)
-
-# Hiring Process
-
-- [Resource](https://thetechresume.com/) to help a developer in the hiring
-  process
-
-# CLI Guideline
-
-- [Written guide](https://clig.dev/)
-
-# Cryptography
-
-- [Online book](https://cryptobook.nakov.com/)
+[codebase]: https://news.ycombinator.com/item?id=24611256
 
 # Chaos Engineering
 
@@ -142,13 +149,15 @@ easy way to test how a specific service deals with issues in isolation.
 
 # Database Migrations
 
-Based on [this article](https://martinfowler.com/articles/evodb.html):
+Based on [this article][evodb]:
 
 - Every developer has his/her own database. The build script offers ways to
   create and delete a database based on a configuration file (which is not put
   into version control). This configuration file contains the database name as
   well as a connection string
 - Migration scripts (and test data) are put into version control
+
+[evodb]: https://martinfowler.com/articles/evodb.html
 
 # The Phoenix/Unicorn Project (Gene Kim)
 
@@ -194,8 +203,10 @@ The PACELC theorem is an extension to the CAP theorem: In case of a network
 **E**lse, when a system does not have a partition, one has to choose between
 **L**atency and **C**onsistency.
 
-Martin Kleppmann posted an [interesting article][klepp] in which he explains
+Martin Kleppmann posted an [interesting article][klepp-cap] in which he explains
 that neither CAP nor PACELC are a good way to think about distributed systems.
+
+[klepp-cap]: https://martin.kleppmann.com/2015/05/11/please-stop-calling-databases-cp-or-ap.html
 
 # Idealcast
 
@@ -205,8 +216,6 @@ Employee satisfaction can indicate the performance of an organization. Ask:
 
 - Are you happy?
 - Are you able to do work that you are proud of?
-
-[klepp]: https://martin.kleppmann.com/2015/05/11/please-stop-calling-databases-cp-or-ap.html
 
 # Believes
 
