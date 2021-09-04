@@ -1,4 +1,4 @@
-# Creativitiy
+# Creativity
 
 [John Cleese on Creativity in Management][cleese]:
 

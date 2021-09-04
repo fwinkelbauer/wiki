@@ -198,9 +198,9 @@ that neither CAP nor PACELC are a good way to think about distributed systems.
 
 [klepp-cap]: https://martin.kleppmann.com/2015/05/11/please-stop-calling-databases-cp-or-ap.html
 
-## Idealcast
+## [Idealcast Podcast](https://itrevolution.com/the-idealcast-podcast/)
 
-Taken from The Idealcast podcast episode 14:
+Episode 14:
 
 Employee satisfaction can indicate the performance of an organization. Ask:
 
