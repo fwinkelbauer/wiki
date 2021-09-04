@@ -1,4 +1,4 @@
-# Antifragility
+# Antifragility (Nassim Nicholas Taleb)
 
 An antifragile system benefits from disorder
 

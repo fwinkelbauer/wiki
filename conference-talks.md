@@ -1,6 +1,4 @@
-# Talks
-
-This document contains notes that I have taken while watching conference talks.
+# Conference Talks
 
 ## [Pilot Decision Management (Clifford Agius)](https://www.youtube.com/watch?v=QNA9EExd8lQ)
 

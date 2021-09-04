@@ -1,4 +1,6 @@
-# Speakers
+# Software Development
+
+## Speakers
 
 - Kevlin Henney
 - Rich Hickey
@@ -29,14 +31,7 @@
 - Rafal Dittwald
 - Michael Bryzek
 
-# The Tao of Coaching (Max Landsberg)
-
-|               | **Low Skill** | **High Skill** |
-| ------------- | ------------- | -------------- |
-| **High Will** | Guide         | Delegate       |
-| **Low Will**  | Direct        | Excite         |
-
-# CTO
+## CTO
 
 I can't remember where I picked up this quote:
 
@@ -45,7 +40,7 @@ I can't remember where I picked up this quote:
 > Second, find something to do. If possible, delegate it; if not, do it.
 > Repeat."
 
-# Decision Logs
+## Decision Logs
 
 Create logs that hold the following information:
 
@@ -64,12 +59,7 @@ post][architecture-decisions]:
 
 [architecture-decisions]: https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions
 
-# Backups
-
-Backups don't mean anything unless you have actually tried to restore data from
-them.
-
-# Modularity
+## Modularity
 
 "Start with a list of difficult design decisions or design decisions which are
 **likely to change**. Each module is then designed to **hide such a decision**
@@ -78,7 +68,7 @@ from the others." - David Parnas
 The goal of modularity is not to make things easier but to hide the things that
 are hard.
 
-# How To Deal With Configuration
+## How To Deal With Configuration
 
 - Rely on useful default configuration which is stored inside the application:
   - e.g. using a log folder next to the application folder, using default
@@ -99,14 +89,14 @@ are hard.
 - Some configuration (e.g. plugging an application into ElasticSearch) should be
   disabled by default. A user can enable them if he wants to
 
-# SBI Model
+## SBI Model
 
 - **Situation:** In the team meeting on Friday
 - **Behavior:** you spoke across me several times
 - **Impact:** so I felt like I wasn't being allowed to share my opinion with the
   team
 
-# Cynefin Framework
+## Cynefin Framework
 
 - **Chaotic:** A crisis. Your best bet is to stabilize the situation
 - **Complex:** (Creativity) You don't know what you don't know, so you have to try things out
@@ -116,14 +106,14 @@ are hard.
   - Make the system right
 - **Obvious:** (Automation) You can automate these steps
 
-# [Four Kinds of Documentation](https://www.divio.com/blog/documentation)
+## [Four Kinds of Documentation](https://www.divio.com/blog/documentation)
 
 - **Tutorial:** learning-oriented; a getting started guide
 - **How-To Guide:** goal-oriented; how to solve a specific problem
 - **Explanation:** understanding-oriented; provides background and context
 - **Reference:** information-oriented; describes inner processes
 
-# A Good Code Base
+## A Good Code Base
 
 The user "l0b0" outlined on [Hacker News][codebase] what he expects in a good
 code base:
@@ -142,12 +132,12 @@ code base:
 
 [codebase]: https://news.ycombinator.com/item?id=24611256
 
-# Chaos Engineering
+## Chaos Engineering
 
 Adding parameters for sleep timers and error rates to service requests can be an
 easy way to test how a specific service deals with issues in isolation.
 
-# Database Migrations
+## Database Migrations
 
 Based on [this article][evodb]:
 
@@ -159,7 +149,7 @@ Based on [this article][evodb]:
 
 [evodb]: https://martinfowler.com/articles/evodb.html
 
-# The Phoenix/Unicorn Project (Gene Kim)
+## The Phoenix/Unicorn Project (Gene Kim)
 
 Three Ways
 
@@ -182,7 +172,7 @@ Five Ideals
 - Psychological Safety
 - Customer Focus
 
-# CAP Theorem
+## CAP Theorem
 
 - **C**onsistency
 - **A**vailability
@@ -208,7 +198,7 @@ that neither CAP nor PACELC are a good way to think about distributed systems.
 
 [klepp-cap]: https://martin.kleppmann.com/2015/05/11/please-stop-calling-databases-cp-or-ap.html
 
-# Idealcast
+## Idealcast
 
 Taken from The Idealcast podcast episode 14:
 
@@ -217,7 +207,7 @@ Employee satisfaction can indicate the performance of an organization. Ask:
 - Are you happy?
 - Are you able to do work that you are proud of?
 
-# Believes
+## Believes
 
 - Working code is only the beginning
 - Be prepared to throw away something you’ve done in order to do something
@@ -232,3 +222,5 @@ Employee satisfaction can indicate the performance of an organization. Ask:
   change them in the future, so prepare yourself
 - Time != Money
 - Technical excellence is not everything
+- Backups don't mean anything unless you have actually tried to restore data
+  from them
