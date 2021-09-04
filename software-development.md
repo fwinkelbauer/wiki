@@ -31,15 +31,6 @@
 - Rafal Dittwald
 - Michael Bryzek
 
-## CTO
-
-I can't remember where I picked up this quote:
-
-> As a CTO, my default loop is "First, cycle through all my employees and make
-> sure that I have equipped them to be happy and productive in their jobs.
-> Second, find something to do. If possible, delegate it; if not, do it.
-> Repeat."
-
 ## Decision Logs
 
 Create logs that hold the following information:
@@ -58,15 +49,6 @@ post][architecture-decisions]:
 - **Consequences:** What happened afterwards?
 
 [architecture-decisions]: https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions
-
-## Modularity
-
-"Start with a list of difficult design decisions or design decisions which are
-**likely to change**. Each module is then designed to **hide such a decision**
-from the others." - David Parnas
-
-The goal of modularity is not to make things easier but to hide the things that
-are hard.
 
 ## How To Deal With Configuration
 
@@ -89,13 +71,6 @@ are hard.
 - Some configuration (e.g. plugging an application into ElasticSearch) should be
   disabled by default. A user can enable them if he wants to
 
-## SBI Model
-
-- **Situation:** In the team meeting on Friday
-- **Behavior:** you spoke across me several times
-- **Impact:** so I felt like I wasn't being allowed to share my opinion with the
-  team
-
 ## Cynefin Framework
 
 - **Chaotic:** A crisis. Your best bet is to stabilize the situation
@@ -106,31 +81,12 @@ are hard.
   - Make the system right
 - **Obvious:** (Automation) You can automate these steps
 
-## [Four Kinds of Documentation](https://www.divio.com/blog/documentation)
+## Four Kinds of Documentation
 
 - **Tutorial:** learning-oriented; a getting started guide
 - **How-To Guide:** goal-oriented; how to solve a specific problem
 - **Explanation:** understanding-oriented; provides background and context
 - **Reference:** information-oriented; describes inner processes
-
-## A Good Code Base
-
-The user "l0b0" outlined on [Hacker News][codebase] what he expects in a good
-code base:
-
-> - A working CI pipeline.
-> - Comprehensive tests.
-> - Enforced linting/formatting.
-> - A script (or at least documentation) to set up a dev env from scratch
->   (including resetting it if it already exists).
-> - Documentation of things which would take days or weeks to discover when
->   working without the original developers, such as high-level trade-offs, code
->   style which is not enforceable using linting (such as "Use Foo.frobnicate
->   rather than the built-in frobnicator because ...") references to issue trackers,
->   former non-committing project-related people such as business analysts,
->   separate documentation, credentials etc.
-
-[codebase]: https://news.ycombinator.com/item?id=24611256
 
 ## Chaos Engineering
 
